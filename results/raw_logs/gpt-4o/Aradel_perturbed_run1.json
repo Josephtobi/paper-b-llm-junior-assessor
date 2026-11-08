@@ -1,0 +1,170 @@
+{
+  "model": "openai/gpt-4o",
+  "slug": "gpt-4o",
+  "track": "B_pack",
+  "entity_id": "Aradel",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 14937,
+  "completion_tokens": 1751,
+  "usd": 0.0548525,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board reinforced our leadership in governance, transparency, and corporate reporting through the voluntary adoption of IFRS S1 and S2 sustainability disclosure standards.",
+        "cited_page_number": 18,
+        "auditor_rationale": "The document mentions board changes and appointments but lacks specific details on how the board oversees climate-related risks and opportunities."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Executive Management is responsible for the day-to-day management of risks across Aradel and its subsidiaries.",
+        "cited_page_number": 45,
+        "auditor_rationale": "The document provides a generic description of management's role in risk management without specific details on climate-related responsibilities."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Sustainability remains a strategic imperative and a core enabler of the long-term resilience of our business.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The document mentions sustainability as a strategic imperative but lacks specific details on identified climate risks and opportunities."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our integrated business model, spanning upstream production, gas processing, refining, and distribution, gives us multiple levers through which to create, realise and preserve value across different market conditions.",
+        "cited_page_number": 27,
+        "auditor_rationale": "The document provides entity-specific information on the business model and value-chain impact but lacks comprehensive details on climate-related impacts."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not mention any climate scenario analysis."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Aradel Enterprise Risk Management (ERM) system is underpinned by a disciplined and systematic framework.",
+        "cited_page_number": 44,
+        "auditor_rationale": "The document describes the ERM framework but lacks specific details on how climate risks are integrated."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our gas monetisation strategy, which delivered a 59% increase in average gas production during the year, is also a direct contribution to reducing routine flaring.",
+        "cited_page_number": 27,
+        "auditor_rationale": "The document mentions operational mitigation efforts but lacks comprehensive adaptation strategies."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not provide a Scope 1, 2, and 3 GHG inventory."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not provide SASB extractive metrics."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Company remains fully aligned with PIA 2021 zero-routine-flaring mandates and the Paris Agreement through ongoing HSE excellence.",
+        "cited_page_number": 31,
+        "auditor_rationale": "The document provides a qualitative affirmation of alignment with decarbonisation targets but lacks quantitative targets."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not mention methane MRV and environmental tracking."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the '100% Corporate Net-Zero' boundary.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The document provides information on flaring commercialisation but excludes significant JV assets from the net-zero boundary."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Company recognised an unrealised fair value loss of \u20a630.3 billion on its investment in Chappal in other comprehensive income.",
+        "cited_page_number": 42,
+        "auditor_rationale": "The document mentions financial impairments but lacks specific connectivity to climate-related financial impacts."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not mention sustainability boundary alignment."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board strongly supported this decision, reflecting our conviction that transparent, consistent, and comparable sustainability reporting is increasingly fundamental to investor confidence and stakeholder trust.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The document mentions readiness for sustainability reporting but lacks specific details on ICSR and ISSA 5000 readiness."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact Internal Carbon Price in USD/tCO2e."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs."
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Oando",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 261067,
+  "completion_tokens": 15183,
+  "usd": 0.021923177999999998,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Through the Board's Risk, Environment, Social and Governance (RESG) Committee, we continued to enhance oversight of climate-related risks, human rights, business ethics, and other ESG matters that are increasingly important drivers of long-term business resilience.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Board-level RESG Committee oversight of climate-related and ESG risks is described, with quarterly risk reporting. However, the disclosure does not specify climate-specific board expertise, climate-linked board metrics, or remuneration linkage. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "we continued integrating climate considerations into asset planning, engineering design, infrastructure resilience, maintenance programmes and emergency preparedness",
+        "cited_page_number": 19,
+        "auditor_rationale": "Management integrates climate considerations into planning and ERM, and the ERM function reports to the GCEO with RESG oversight. No named climate management committee, climate-linked executive KPIs, or quantified accountability mechanism is disclosed."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Many of our upstream assets are located within the low-lying flood plains of the Niger Delta, where rising sea levels, changing rainfall patterns and more frequent extreme weather events present growing risks to infrastructure, operational continuity and surrounding communities.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The report identifies physical and transition climate risks and opportunities, including flooding, policy, technology, gas and renewables. It lacks quantified financial impacts, likelihood/severity ratings, and scenario-based risk quantification."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Natural gas will remain central to this transition. As a cleaner transition fuel, it has the potential to expand energy access, support industrialisation and reduce the carbon intensity of Nigeria's energy mix.",
+        "cited_page_number": 18,
+        "auditor_rationale": "The business model and value-chain impacts are described through gas commercialisation, clean energy, trading and supply-chain considerations. However, climate-related value-chain impacts are not quantified or linked to financial planning."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "assessed climate vulnerabilities under relevant scenarios and identified pathways to strengthen decarbonisation and operational resilience.",
+        "cited_page_number": 66,
+        "auditor_rationale": "The report mentions climate scenario assessment but provides no scenario definitions, assumptions, time horizons, warming pathways, or quantitative outcomes. Disclosure is generic."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In FY2025, the Enterprise Risk Management and Control Function strengthened the integration of sustainability-related risks into the Group\u2019s broader ERM framework through the development of an ESG Risk Register.",
+        "cited_page_number": 25,
+        "auditor_rationale": "ESG risks are integrated into ERM through an ESG Risk Register, Climate Change Risk Assessment, Human Rights Risk Assessment, and quarterly RESG reporting. The disclosure lacks quantified risk appetite, climate risk metrics, and financial impact thresholds."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "investments in compressor reliability, gas gathering infrastructure and facility optimisation increased gas utilisation to 92.2%",
+        "cited_page_number": 19,
+        "auditor_rationale": "Operational mitigation and adaptation are supported by quantitative metrics: gas utilisation of 92.2%, 41 ultrasonic flare gas meters with 13 installed, 82% oil spill recovery, LDAR campaigns, and flood resilience measures. Investor-grade operational detail."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "Gross Scope 1 and Scope 3 emissions increased by 1.23%",
+        "cited_page_number": 42,
+        "auditor_rationale": "Scope 1 and Scope 3 emissions are quantified, but Scope 2 is explicitly excluded. There is also an internal numeric contradiction: page 22 labels +3.96% as a gross Scope 1 and Scope 3 emissions reduction, while page 42 reports a +1.23% increase in gross Scope 1 and Scope 3 emissions and a +3.96% increase in intensity."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "9,661bopd",
+        "cited_page_number": 10,
+        "auditor_rationale": "SASB extractive metrics are partially disclosed, including reserves, production, spills, waste, and safety. However, production figures conflict across pages: page 10 states 9,661 bopd oil production and 110 MMscfd gas production, while pages 9 and 19 state 11,269 bopd and 117 MMscf/d."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Achieve 15% reduction of Net Carbon Intensity of energy products sold",
+        "cited_page_number": 43,
+        "auditor_rationale": "Quantitative decarbonisation targets exist for net carbon intensity, lifecycle emissions, and flaring. However, there are no absolute Scope 1/2 reduction targets, baseline year, interim milestones, or clear governance of target delivery."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Carried Leak Detection and Repair (LDAR) campaigns at Brass Oil Terminal and Kwale Gas Plant using Optical Gas Imaging technique.",
+        "cited_page_number": 43,
+        "auditor_rationale": "Entity-specific methane detection and flare metering activities are described, including LDAR and ultrasonic flare meters. However, no quantified methane emissions, detection limits, repair rates, or MRV data are disclosed."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Flared gas emissions decreased by 6.44%, from 798.74 ktCO2e in 2024 to 747.30 ktCO2e in 2025.",
+        "cited_page_number": 42,
+        "auditor_rationale": "Flaring and spill performance are quantified: flared gas emissions, gas utilisation, spill incidents, spill volumes, free oil recovered, and clean-up status. This is investor-grade operational disclosure."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The decommissioning provisions balance as of 31 December 2025 is N417.4 billion (2024: N698.3 billion)",
+        "cited_page_number": 15,
+        "auditor_rationale": "IAS 37 decommissioning provisions and IAS 36 impairment assumptions are disclosed in the financial statements. However, there is no climate-specific connectivity, such as climate-adjusted cash flows, transition-risk sensitivities, or climate-linked IAS 37 assumptions."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Oando JV recorded Gross Scope 1 and Scope 3 emissions of 3,494.88 ktCO2e",
+        "cited_page_number": 42,
+        "auditor_rationale": "The report states that the sustainability boundary aligns with the consolidated financial statements, but emissions are reported for the operated Oando JV without clarifying the equity share. The financial statements show OML 60-63 working interests of 20%, 19% and 1%, so the boundary alignment is unclear and potentially includes/excludes JV interests inconsistently."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "external assurance of OERNL\u2019s GHG data is planned for future reporting periods",
+        "cited_page_number": 42,
+        "auditor_rationale": "The report mentions future external assurance and audit-ready data ambitions, but does not describe an internal control over sustainability reporting framework, ISSA 5000 readiness assessment, assurance scope, or assurance conclusion."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact internal carbon price in USD/tCO2e. No IFRS S2 paragraph 29(f) internal carbon price disclosure is present."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of executive remuneration tied to climate KPIs. It only refers generically to preparatory work to integrate sustainability performance into executive accountability."
+      }
+    ]
+  }
+}

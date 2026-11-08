@@ -1,0 +1,164 @@
+{
+  "n_log_files": 48,
+  "spent_usd": 3.618496440999999,
+  "table1_models": [
+    {
+      "model": "claude-sonnet-4.5",
+      "track": "B_pack",
+      "kappa_w": 0.5256769374416433,
+      "mae": 0.5777777777777778,
+      "bias": -0.3111111111111111,
+      "n_runs": 3
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "track": "A_full",
+      "kappa_w": 0.5096329680004229,
+      "mae": 0.48571428571428577,
+      "bias": -0.10476190476190476,
+      "n_runs": 7
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "track": "A_full",
+      "kappa_w": 0.10314693750114541,
+      "mae": 0.6370370370370371,
+      "bias": 0.11851851851851854,
+      "n_runs": 9
+    },
+    {
+      "model": "gpt-4o",
+      "track": "B_pack",
+      "kappa_w": 0.39687244657242454,
+      "mae": 0.5777777777777778,
+      "bias": -0.35555555555555557,
+      "n_runs": 3
+    }
+  ],
+  "table2": [
+    {
+      "model": "claude-sonnet-4.5",
+      "k_max": 0,
+      "exact_match_pct": NaN,
+      "krippendorff_alpha": NaN,
+      "n_items": NaN
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "k_max": 3,
+      "exact_match_pct": 62.22222222222222,
+      "krippendorff_alpha": 0.3036717062634988,
+      "n_items": 45.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "k_max": 3,
+      "exact_match_pct": 97.77777777777777,
+      "krippendorff_alpha": 0.9823078954317401,
+      "n_items": 45.0
+    },
+    {
+      "model": "gpt-4o",
+      "k_max": 0,
+      "exact_match_pct": NaN,
+      "krippendorff_alpha": NaN,
+      "n_items": NaN
+    }
+  ],
+  "table3": [
+    {
+      "model": "claude-sonnet-4.5",
+      "error_type": "Type_A",
+      "detection_rate": 0.6666666666666666,
+      "n": 3
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "error_type": "Type_B",
+      "detection_rate": 0.0,
+      "n": 6
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "error_type": "Type_C",
+      "detection_rate": 1.0,
+      "n": 6
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "error_type": "Type_A",
+      "detection_rate": 0.5555555555555556,
+      "n": 9
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "error_type": "Type_B",
+      "detection_rate": 0.8888888888888888,
+      "n": 18
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "error_type": "Type_C",
+      "detection_rate": 0.8888888888888888,
+      "n": 18
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "error_type": "Type_A",
+      "detection_rate": 0.0,
+      "n": 9
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "error_type": "Type_B",
+      "detection_rate": 0.0,
+      "n": 18
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "error_type": "Type_C",
+      "detection_rate": 1.0,
+      "n": 18
+    },
+    {
+      "model": "gpt-4o",
+      "error_type": "Type_A",
+      "detection_rate": 0.3333333333333333,
+      "n": 3
+    },
+    {
+      "model": "gpt-4o",
+      "error_type": "Type_B",
+      "detection_rate": 0.0,
+      "n": 6
+    },
+    {
+      "model": "gpt-4o",
+      "error_type": "Type_C",
+      "detection_rate": 1.0,
+      "n": 6
+    }
+  ],
+  "table4": [
+    {
+      "model": "claude-sonnet-4.5",
+      "qvr_pct": 70.44844044844045,
+      "type_d_hallucination_pct": 0.0
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "qvr_pct": 100.0,
+      "type_d_hallucination_pct": 0.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "qvr_pct": 96.14672364672364,
+      "type_d_hallucination_pct": 0.0
+    },
+    {
+      "model": "gpt-4o",
+      "qvr_pct": 98.80952380952381,
+      "type_d_hallucination_pct": 0.0
+    }
+  ]
+}

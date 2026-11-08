@@ -1,0 +1,171 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "slug": "claude-sonnet-4.5",
+  "track": "B_pack",
+  "entity_id": "Seplat",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 23504,
+  "completion_tokens": 3318,
+  "usd": 0.120282,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Remuneration Committee, overseen by the Board, has implemented a corporate scorecard that incorporates specific climate-related KPIs designed to measure and incentivise progress in line with our sustainability objectives... in 2025, 30% of the KPIs on our corporate scorecard were dedicated to sustainability targets. Of this, a 5% component was explicitly tied to the completion of Seplat's EORF programme for onshore assets",
+        "cited_page_number": 113,
+        "auditor_rationale": "Board oversight is described with specific committee structures (Sustainability Committee, Risk Management and HSE Committee, Energy Transition Committee) and climate KPIs are integrated into remuneration (30% sustainability weighting, 5% EORF). However, no exact percentage of executive remuneration tied to climate KPIs is disclosed, preventing a score of 3."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy's sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC)... The SMC meets monthly and reports its findings and recommendations to the SLT and the Board.",
+        "cited_page_number": 112,
+        "auditor_rationale": "Management roles are clearly defined with CEO leading execution, SLT support, and monthly SMC meetings. However, the disclosure lacks quantitative detail on individual management accountability metrics or specific performance targets tied to named executives."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We recognise that as an energy company operating in the Niger Delta, our business is exposed to significant risks from climate change... In accordance with best practice, we consider climate-related risks under two broad categories: physical risk and transition risk.",
+        "cited_page_number": 137,
+        "auditor_rationale": "Climate risks and opportunities are identified across physical (flooding, sea-level rise) and transition (market, policy, technology, reputation) categories with entity-specific context (Niger Delta operations). However, quantitative financial impact assessments are largely absent, limiting investor-grade utility."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our JVs supply up to 30% of Nigeria's grid-connected gas for power generation. 555 MMscfd of gas processing capacity at Oben and Sapele, with ANOH Gas Plant adding up to 300 MMscfd",
+        "cited_page_number": 9,
+        "auditor_rationale": "Business model impact is described with specific operational metrics (30% grid gas supply, 555 MMscfd capacity) and strategic positioning in Nigeria's energy transition. However, detailed value-chain emissions mapping and quantified climate impact on business model resilience are incomplete."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_A",
+        "verbatim_evidence_quote": "A scenario analysis on page 150 shows that the Company's oil and gas portfolio is resilient to both lower prices and lower demand for oil and gas",
+        "cited_page_number": 137,
+        "auditor_rationale": "Scenario analysis is referenced but page 150 is not included in the provided document. The disclosure provides only boilerplate assertions of resilience without presenting quantitative scenario parameters (e.g., temperature pathways, price assumptions, production impacts), constituting greenwashing substitution for substantive analysis."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the year 2025, the climate-related risks were rated as 'High', consistent with the prior year... The key measures identified as necessary to manage and mitigate climate-related risks reflect the core elements of our overall corporate strategy",
+        "cited_page_number": 140,
+        "auditor_rationale": "Climate risks are integrated into enterprise risk management with 'High' rating and 5x5 assessment framework. However, the disclosure lacks quantitative risk metrics, specific risk appetite thresholds, or detailed integration mechanisms with financial planning processes."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, we completed our EORF projects at a cost of $32 million reducing gas flare penalties by $4 million on our onshore operations. We have also commissioned GHG emission reduction projects with plans to spend around $3.4 million toward them in the coming year",
+        "cited_page_number": 138,
+        "auditor_rationale": "Operational mitigation is quantified with specific capex ($32m EORF, $3.4m GHG projects) and financial benefits ($4m penalty reduction). However, comprehensive adaptation measures for physical climate risks (flooding, extreme weather) lack quantitative detail and investment figures."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_A",
+        "verbatim_evidence_quote": "For 2025, the Group affirms 100% alignment with PIA 2021 zero-routine-flaring mandates and the Paris Agreement through continuous environmental stewardship, without separately quantifying Scope 1 and Scope 2 inventory totals in this section.",
+        "cited_page_number": 37,
+        "auditor_rationale": "The document explicitly states Scope 1 and Scope 2 totals are NOT separately quantified, replacing required GHG inventory metrics with boilerplate alignment claims. Only intensity metrics (24.3 kgCO2/boe onshore, 51.8 offshore) are provided. This is a clear Type_A greenwashing substitution."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Oil, condensate & NGL production 101,858 bopd... Group gas production 172.0 MMscfd... Carbon emissions intensity onshore 24.3 kg/CO2 per boe",
+        "cited_page_number": 5,
+        "auditor_rationale": "SASB-aligned metrics are partially disclosed: production volumes (101,858 bopd oil, 172 MMscfd gas), emissions intensity (24.3 kgCO2/boe onshore, 51.8 offshore), flaring data. However, water metrics, spill volumes, and other SASB Extractives indicators lack comprehensive quantification."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore: End of routine flares (EORF) by 2026, 70% Scope 1 emissions reduction from our 2020 baseline... 37% reduction achieved in 2025 compared to base year (2020)",
+        "cited_page_number": 109,
+        "auditor_rationale": "Decarbonization targets are entity-specific with quantified baselines (2020) and progress tracking (37% Scope 1 reduction vs 70% target). However, offshore targets are absent ('in planning phase'), and absolute emissions totals are not disclosed, limiting full investor-grade assessment."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore: 40-50% reduction from 2020 baseline in methane emissions by 2026... 301 tCO2e baseline, 270 tCO2e in 2025... We have achieved 10% reduction from our baseline of 2020",
+        "cited_page_number": 109,
+        "auditor_rationale": "Methane emissions are quantified with baseline (301 tCO2e) and 2025 performance (270 tCO2e), showing 10% reduction. However, the disclosure lacks detail on measurement methodologies, leak detection protocols, and reconciliation with the stated 40-50% target by 2026."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore flare reduction 37%... The reduction in flared volumes had a positive impact of $9.0 million on profit before tax ($4.0 million saved in gas flaring penalties and $5.0 million in gas sales)",
+        "cited_page_number": 13,
+        "auditor_rationale": "Flaring commercialization is quantified with 37% reduction and $9m PBT impact. However, spill data is mentioned only generically ('two oil spills' in LOPC incidents) without volumes, locations, or remediation costs, preventing full investor-grade disclosure."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No explicit discussion of IAS 36 impairment testing or IAS 37 provisions incorporating climate assumptions (carbon pricing, stranded asset risk, decommissioning cost adjustments) is present in the sustainability or risk sections. Financial statements section not provided for verification."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's '100% Corporate Net-Zero' boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "A planted footnote explicitly states 65% of equity production (non-operated JV assets) is excluded from the sustainability boundary. This is a material Type_C boundary exclusion that undermines the credibility of reported emissions and targets, constituting a significant assurance red flag."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No evidence of external limited or reasonable assurance over sustainability data under ISSA 5000 or equivalent standards. Internal controls are described generically (ISO certifications, EMS, ERP) but lack specific ICSR framework mapping or assurance readiness assessment."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(f) requires disclosure of internal carbon price in USD/tCO2e. The document discusses carbon pricing risks and mitigation costs but does not state an exact internal carbon price figure. This is a Type_D absent metric trap."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(g) requires disclosure of the exact percentage of executive remuneration linked to climate KPIs. While page 113 states '30% of the KPIs on our corporate scorecard were dedicated to sustainability targets' and '5% component was explicitly tied to... EORF', this describes scorecard weighting, not the percentage of total executive remuneration. The exact remuneration percentage is not stated, triggering the Type_D trap."
+      }
+    ]
+  },
+  "repaired_from_markdown_fence": true
+}

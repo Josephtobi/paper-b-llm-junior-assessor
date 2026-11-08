@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Oando",
+  "version": "perturbed",
+  "run": 2,
+  "prompt_tokens": 261136,
+  "completion_tokens": 14518,
+  "usd": 0.021549641999999994,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Through the Board's Risk, Environment, Social and Governance (RESG) Committee, we continued to enhance oversight of climate-related risks, human rights, business ethics, and other ESG matters",
+        "cited_page_number": 17,
+        "auditor_rationale": "Board-level RESG Committee provides oversight of climate-related risks and ESG matters; entity-specific but no quantified climate governance metrics or remuneration linkage."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Enterprise Risk Management (ERM) and Control Function reports through the Executive Director, Corporate Services, to the Group Chief Executive Officer (GCEO), with oversight from the Board through the Risk, Environment, Social and Governance (RESG) Committee.",
+        "cited_page_number": 25,
+        "auditor_rationale": "Management role described via ERM reporting to GCEO and Executive Director Corporate Services & Sustainability; entity-specific but limited climate-specific accountability."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Climate Change Risk Assessment enhanced the Group\u2019s understanding of physical risks, including flooding, erosion, extreme weather and potential impacts on asset resilience and operational continuity.",
+        "cited_page_number": 25,
+        "auditor_rationale": "Identifies physical and transition climate risks and opportunities; entity-specific but no quantified financial impacts."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The organisation\u2019s sustainability reporting boundary covers Oando PLC, Oando Energy Resources (OER), and its subsidiaries across exploration and production, oil and gas services, trading, logistics, energy solutions, power generation, and other related business activities.",
+        "cited_page_number": 35,
+        "auditor_rationale": "Describes business model and value-chain coverage; entity-specific but incomplete on climate-related value-chain impacts."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "assessed climate vulnerabilities under relevant scenarios",
+        "cited_page_number": 66,
+        "auditor_rationale": "Mentions scenario assessment in CCRA but no specific scenarios, assumptions, or quantitative outputs; generic."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In FY2025, the Enterprise Risk Management and Control Function strengthened the integration of sustainability-related risks into the Group\u2019s broader ERM framework through the development of an ESG Risk Register.",
+        "cited_page_number": 25,
+        "auditor_rationale": "ESG Risk Register and climate/human rights assessments integrated into ERM; entity-specific process but no quantitative risk metrics."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "investments in compressor reliability, gas gathering infrastructure and facility optimisation increased gas utilisation to 92.2%",
+        "cited_page_number": 19,
+        "auditor_rationale": "Quantified operational mitigation: gas utilisation 92.2%, flare meters, spill recovery 82%, flood measures; investor-grade."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "GROSS SCOPE 1 AND SCOPE 3 EMISSIONS REDUCTIONS VS. 2024 +39.6%",
+        "cited_page_number": 22,
+        "auditor_rationale": "Scope 1 and 3 quantified but Scope 2 omitted; boundary excludes 65% JV; contradictory reduction claim vs increase (Type_B); IT carbon footprint uses qualitative boilerplate (Type_A)."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Total spill incidents decreased by 61.8%, from 398 in 2024 to 152 in 2025",
+        "cited_page_number": 47,
+        "auditor_rationale": "Provides SASB-relevant extractive metrics (spills, waste, safety) but not full SASB set; entity-specific incomplete."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" reporting boundary.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Some decarbonisation targets (flaring, carbon intensity, lifecycle emissions) but boundary excludes 65% JV from net-zero; Type_C anomaly."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Expanded Leak Detection and Repair (LDAR) campaigns, particularly at critical facilities, strengthened detection and mitigation of methane and other volatile organic compound (VOC) emissions",
+        "cited_page_number": 42,
+        "auditor_rationale": "Methane MRV via LDAR/OGI and flare meters; entity-specific but no quantitative methane emissions."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Flared gas emissions decreased by 6.44%, from 798.74 ktCO2e in 2024 to 747.30 ktCO2e in 2025.",
+        "cited_page_number": 42,
+        "auditor_rationale": "Quantified flaring and spill performance; investor-grade."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The decommissioning provisions balance as of 31 December 2025 is N417.4 billion (2024: N698.3 billion)",
+        "cited_page_number": 15,
+        "auditor_rationale": "Financial statements include decommissioning provisions and contingencies, but no explicit climate-related IAS 36/IAS 37 connectivity; generic."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" reporting boundary.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Boundary claims alignment with financial statements but excludes 65% JV equity production from net-zero boundary; Type_C anomaly."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "external assurance of OERNL\u2019s GHG data is planned for future reporting periods",
+        "cited_page_number": 42,
+        "auditor_rationale": "Assurance readiness limited to planned future external assurance of GHG data; no ISSA 5000/ICSR assurance conclusion."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact Internal Carbon Price in USD/tCO2e disclosed; IFRS S2 para 29(f) metric absent."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact percentage of Executive Remuneration tied to climate KPIs disclosed; only preparatory work mentioned."
+      }
+    ]
+  }
+}

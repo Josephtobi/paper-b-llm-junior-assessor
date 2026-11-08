@@ -1,0 +1,170 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "slug": "gemini-2.5-flash",
+  "track": "A_full",
+  "entity_id": "Seplat",
+  "version": "clean",
+  "run": 2,
+  "prompt_tokens": 443121,
+  "completion_tokens": 5044,
+  "usd": 0.1455463,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company\u2019s sustainability and climate strategy, ensuring that these considerations are fully integrated into our overall risk management and financial decision-making frameworks in line with IFRS S1 and IFRS S2 requirements. To effectively manage and oversee sustainability- and climate-related risks, the Board has established dedicated committees that meet quarterly and has delegated the implementation of the strategic framework to the CEO.",
+        "cited_page_number": 112,
+        "auditor_rationale": "The document explicitly states that the Board is ultimately accountable for overseeing the company's sustainability and climate strategy, and that these considerations are integrated into risk management and financial decision-making frameworks in line with IFRS S1 and S2. It also mentions dedicated committees that meet quarterly and delegation to the CEO. However, it does not provide specific details on how the board's performance on climate-related matters is evaluated or linked to remuneration, which would elevate the score to 3."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy\u2019s sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC). The execution of the sustainability initiatives are handled by different teams within the organisation. The table below summarises Seplat\u2019s governance levels and their responsibilities. The SMC meets monthly and reports its findings and recommendations to the SLT and the Board. This process ensures that emerging risks, such as those identified through regular skill and competency assessments and benchmarking against industry best practices, are promptly addressed.",
+        "cited_page_number": 112,
+        "auditor_rationale": "The document clearly outlines the management's role in assessing and managing climate-related risks and opportunities, with the CEO leading and the Sustainability Management Committee (SMC) meeting monthly and reporting to the SLT and Board. It also mentions skill and competency assessments. However, it lacks specific details on the outcomes of these assessments or how management's performance on climate is explicitly linked to their remuneration, which would be needed for a score of 3."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Climate change is a material issue for Seplat Energy, influencing both our risk profile and strategic direction. We are committed to the principles of the Paris Agreement and recognise our responsibility to address climate risks while maximising social benefits. We are managing the transition to a low-carbon economy through robust emission-reduction initiatives and proactive adaptation strategies. By addressing climate change, we not only mitigate potential regulatory and market risks but also position ourselves to seize emerging opportunities in the evolving energy landscape.",
+        "cited_page_number": 114,
+        "auditor_rationale": "The document identifies climate change as a material issue, influencing risk profile and strategic direction, and mentions commitment to the Paris Agreement, emission-reduction initiatives, and adaptation strategies. It also highlights opportunities in the evolving energy landscape. However, while it discusses risks and opportunities, it doesn't provide a comprehensive, quantified assessment of their financial impact on the company's strategy, limiting the score to 2."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our strategy is based on sustainable growth and delivering energy transition at scale for Nigeria. Our drive towards integration along the energy value chain through our upstream, midstream gas and new energy businesses is a response to our belief that while oil remains crucial for Nigeria\u2019s development, gas will drive energy transition and renewable energy is the future. Therefore, when we identify the opportunities and risks we will encounter in the future, we consider how we can increase value for all stakeholders in the most sustainable way.",
+        "cited_page_number": 147,
+        "auditor_rationale": "The document describes how climate-related risks and opportunities influence the company's business model and value chain, particularly through its upstream, midstream gas, and new energy businesses. It explains the strategic shift towards gas as a transition fuel and renewables. However, it lacks detailed, quantitative analysis of the specific impacts on different parts of the value chain or how the business model is being financially adapted in response to these impacts, thus a score of 2."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We conducted our annual scenario analysis for the 2025 financial year to assess shifts in the macroeconomic outlook, technology developments, policy and legal implications. The climate resilience assessment encompasses all of Seplat\u2019s cash-generating portfolios, including all producing assets.\nTo demonstrate the resilience of the organisational strategy and financial plans to a range of plausible climate-related scenarios, Seplat Energy adopted the International Energy Agency\u2019s (IEA) Global Energy and Climate (GEC) model for the impact assessment of climate-related risks and opportunities on Seplat\u2019s strategy. The GEC model uses macro drivers, techno-economic inputs and policies as input data to design and arrive at the three scenarios.",
+        "cited_page_number": 148,
+        "auditor_rationale": "The document states that an annual scenario analysis was conducted for 2025 using the IEA's Global Energy and Climate (GEC) model, encompassing all cash-generating portfolios and producing assets. It outlines three scenarios (NZE, CPS, STEPS) and discusses their impact on NPV15. However, the financial impact is presented as percentages relative to the business plan, rather than absolute monetary values, and the methodology for integrating climate-related risks into financial planning is not fully detailed, leading to a score of 2."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "As part of our commitment to ensuring alignment with emerging trends and mandates, Seplat has integrated ESG and sustainability matters into our Enterprise Risk Management (ERM) framework and register, following guidance from the Risk Committee. Seplat maintains a risk universe, which aids in identifying critical risks associated with factors that influence our business strategy and objectives. In 2024, Seplat conducted a comprehensive review and update of the Seplat risk universe into five risk categories, one of which is climate change and energy transition. This update formally integrated sustainability-related risks, such as environmental damage and its ecological impacts and climate-related risks into the risk universe to ensure a more focused attention on this risk category.",
+        "cited_page_number": 137,
+        "auditor_rationale": "The document explicitly states that ESG and sustainability matters, including climate change and energy transition, are integrated into the Enterprise Risk Management (ERM) framework and risk register. It mentions a comprehensive review of the risk universe and the identification of critical risks. However, it does not provide detailed, quantitative information on how the financial impacts of these risks are measured within the ERM or how they directly influence capital allocation decisions, thus a score of 2."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The key measures identified as necessary to manage and mitigate climate-related risks reflect the core elements of our overall corporate strategy: decarbonising our operations and diversifying our business into lower-carbon and renewable energy products. These have already been described in detail in the preceding sections of this report and are also summarised in the Climate Risk Table in the Strategy section of this report.",
+        "cited_page_number": 140,
+        "auditor_rationale": "The document outlines several mitigation and adaptation measures, such as decarbonizing operations, diversifying into lower-carbon and renewable energy, and developing a comprehensive physical climate risk management plan. It also mentions specific projects like EORF. However, while these actions are described, the document lacks a detailed, quantitative assessment of their effectiveness in reducing specific climate-related risks or their financial implications, leading to a score of 2."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, our onshore Scope 1 emissions (equity interest), which include direct emissions, reduced by 14% to 389,441 tCO2e from 452,152 tCO2e in 2024. This reduction was primarily driven by progress in our EORF despite increased production from our onshore operated facilities. Notwithstanding this year-on-year increased production, our long-term emission reduction initiatives have resulted in an overall reduction of 37% compared to our base year of 2020 for the onshore operations. We remain committed to further optimising operational efficiency, eliminating routine flaring and implementing targeted strategies to drive sustained reductions in our carbon footprint. For onshore Scope 2 emissions, which cover indirect emissions from the consumption of purchased electricity, we also achieved a marginal reduction from 1,074 tCO2e to 908 tCO2e in 2025. From our offshore operations, Scope 1 emissions accounted for 1,682,639 tCO2e in 2025, while Scope 2 emissions were 545 tCO2e.\nWe have made progress in calculating and reporting our Scope 3 emissions. In 2025, we continued to report emissions from six (6) categories from our onshore operations. Looking ahead, we aim to report on the remaining material Scope 3 categories by 2026, following the ongoing supplier engagement process and the establishment of necessary data collection mechanisms.",
+        "cited_page_number": 115,
+        "auditor_rationale": "The document provides quantitative data for Scope 1 and 2 GHG emissions for both onshore and offshore operations in tCO2e, including year-on-year changes and reductions relative to a baseline. It also explicitly states reporting on six categories of Scope 3 emissions with a commitment to report on remaining material categories by 2026. This level of detail and quantification warrants a score of 3."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, Seplat onshore assets continued its campaign towards full-scale compliance to NUPRC guidelines on methane emissions by continuing the LDAR programme in line with regulatory requirements. The first ever third-party lead, facility-wide fugitive leak detection campaign across all WA facilities was successfully completed in Q4 2025. NUPRC accredited third-party OGI consultants deployed in October 2025 for a facility wide fugitive leak detection campaign with NUPRC nominees witnessing the exercise to assure full compliance. The LDAR report has been issued to the Commission in April 2026 (per the requirements of the regulation). Remediation of identified fugitive leaks (and other non-compliances) from the 2025 fugitive leak identification campaigns is ongoing.",
+        "cited_page_number": 116,
+        "auditor_rationale": "The document describes the implementation of a Leak Detection and Repair (LDAR) program for methane emissions, including a third-party led campaign and reporting to NUPRC. It also mentions remediation efforts. While it details the process and commitment, it does not provide quantitative metrics for methane emissions reduction directly attributable to the LDAR program for the reporting period, or other specific SASB extractive metrics beyond general GHG. Therefore, a score of 2 is assigned."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the short term, our primary objective is to eradicate all routine flaring from our existing onshore operated assets by the end of 2025. Looking ahead to the medium term, we aim to integrate renewable energy sources into our operations, while our long-term goal is to achieve net zero emissions by 2050.",
+        "cited_page_number": 148,
+        "auditor_rationale": "The document clearly states decarbonization targets, including eradicating routine flaring from onshore assets by end of 2025, integrating renewable energy in the medium term, and achieving net zero emissions by 2050. It also provides some quantitative progress on flare reduction. However, it lacks detailed interim targets or a clear, quantified pathway for achieving the net-zero goal, which would be expected for a score of 3."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, Seplat onshore assets continued its campaign towards full-scale compliance to NUPRC guidelines on methane emissions by continuing the LDAR programme in line with regulatory requirements. The first ever third-party lead, facility-wide fugitive leak detection campaign across all WA facilities was successfully completed in Q4 2025. NUPRC accredited third-party OGI consultants deployed in October 2025 for a facility wide fugitive leak detection campaign with NUPRC nominees witnessing the exercise to assure full compliance. The LDAR report has been issued to the Commission in April 2026 (per the requirements of the regulation). Remediation of identified fugitive leaks (and other non-compliances) from the 2025 fugitive leak identification campaigns is ongoing.",
+        "cited_page_number": 116,
+        "auditor_rationale": "The document describes the implementation of a Leak Detection and Repair (LDAR) program for methane emissions, including a third-party led campaign and reporting to NUPRC. It details the process of identifying and remediating fugitive leaks. However, it does not provide quantitative metrics for methane emissions reduction directly attributable to the LDAR program for the reporting period, or specific environmental tracking data beyond the program's existence. Therefore, a score of 2 is assigned."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In keeping with our commitment to end routine flaring across our operated onshore assets by year-end 2025, we successfully commissioned all EORF projects in Q4 2025. All installed facilities in the western asset (WA) are operational and undergoing 90-day reliability runs with flare results of 0.0 \u2013 0.7 MMscf across WA flow stations. Total WA flare is down from an average of 24MMscf/d in FY 2024 to 9 MMscf/d in Q4 2025. This represents a reduction in flare volumes from 9% of total produced gas in FY 2024 to 3% of total produced gas in Q4 2025. AG flares reduced from 18MMscf/d in FY 2024 (39% of AG production) to 2MMscf/d (5% of AG production) in Q4 2025. The successful routing of C2 and C3 components of Oben GP gas plant to SIGP in December was instrumental to reducing Oben GP flares to as low as 0.5MMscf/d while performance tuning ongoing to ensure sustenance of <0.5MMscf/d is ongoing. At the eastern assets(EA), the Ohaji EORF projects was completed and commissioned at year end with full value realization expected in 2026.",
+        "cited_page_number": 115,
+        "auditor_rationale": "The document provides quantitative data on flare reduction, stating that routine flaring ended on onshore assets by year-end 2025, with specific reductions in flare volumes (e.g., WA flare down from 24 MMscf/d to 9 MMscf/d). It also details the commissioning of EORF projects and the routing of gas to plants, demonstrating commercialization efforts. This level of specific, quantitative reporting on flare reduction and commercialization warrants a score of 3."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the measurement of asset retirement obligations (AROs), management incorporates sustainability-related considerations including costs, such as those associated with decommissioning and restoring sites to meet environmental standards.",
+        "cited_page_number": 313,
+        "auditor_rationale": "The document explicitly states that sustainability-related considerations, including decommissioning and restoration costs, are incorporated into the measurement of Asset Retirement Obligations (AROs), which fall under IAS 37. It also mentions that climate-related matters may affect the useful life and residual value of PPE (IAS 36). However, it does not provide specific quantitative examples or detailed methodologies of how these climate-related factors are translated into the financial estimates for AROs or impairment calculations, limiting the score to 2."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our sustainability performance indicators are aligned with our objectives and reflect the potential impacts of our activities. Specifically:\n\u2022 Health, safety, climate, and ecological impact metrics cover Seplat Energy subsidiaries, companies in joint arrangements, and associated companies, as detailed in note 3.5.\n\u2022 The waste management, EORF roadmap, net zero target and other targets cover Seplat Energy\u2019s operated assets.\n\u2022 Social investment, people, diversity and inclusion, as well as ethics and anti-corruption data, relate to Seplat Energy and its subsidiaries.\n\u2022 We use the equity approach to calculate GHG emissions, acid gases and water.\nPerformance disclosures are based on these parameters. For all other data, the perimeter aligns with relevant legislation and comprises companies consolidated line by line to prepare Seplat Energy\u2019s consolidated financial statements. In the current period, SEPNU has been included in our reporting boundary.",
+        "cited_page_number": 312,
+        "auditor_rationale": "The document clearly defines the sustainability reporting boundaries for different types of metrics (e.g., climate and ecological impact metrics cover subsidiaries, joint arrangements, and associated companies; waste management and net zero targets cover operated assets). It also states that SEPNU has been included in the reporting boundary. This indicates a clear, entity-specific approach to boundary setting. However, it does not explicitly state that the sustainability boundary is fully aligned with the financial reporting boundary for all material sustainability information, which would be required for a score of 3."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The sustainability-related financial disclosures of Seplat Energy have been prepared in accordance with IFRS Sustainability Disclosure Standards as issued by the ISSB, in line with the adoption roadmap issued by the Financial Reporting Council of Nigeria. \nAll sustainability-related financial disclosures contained in this Annual Report for the year ended 31 December 2025 as referenced below have been prepared based on the requirements of IFRS Sustainability Disclosure Standards, IFRS S1 and S2, as effective from 1 January 2024.",
+        "cited_page_number": 110,
+        "auditor_rationale": "The document explicitly states that sustainability-related financial disclosures are prepared in accordance with IFRS Sustainability Disclosure Standards (IFRS S1 and S2) as issued by the ISSB, effective from January 1, 2024, and in line with the FRC of Nigeria's roadmap. This demonstrates a clear commitment to ISSA 5000 readiness. However, it does not provide evidence of an independent assurance report on the sustainability disclosures, which would be necessary for a score of 3."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document mentions incorporating carbon pricing into project evaluation procedures in the future but does not state an exact Internal Carbon Price in USD/tCO2e for the reporting period."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "While the document states that 30% of KPIs on the Corporate Scorecard were dedicated to ESG targets, impacting Executive Directors' performance bonus payout, it does not provide an exact percentage of Executive Remuneration tied to climate KPIs (para 29(g)). The 30% refers to the weighting of ESG targets within the bonus scorecard, not the percentage of total remuneration directly linked to climate KPIs."
+      }
+    ]
+  }
+}

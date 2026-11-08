@@ -1,0 +1,12 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Aradel",
+  "version": "perturbed",
+  "run": 2,
+  "prompt_tokens": 195574,
+  "completion_tokens": 131072,
+  "usd": 0.084292098,
+  "response": {}
+}

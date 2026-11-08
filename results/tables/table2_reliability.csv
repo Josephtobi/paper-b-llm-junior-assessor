@@ -1,0 +1,5 @@
+model,k_max,exact_match_pct,krippendorff_alpha,n_items
+claude-sonnet-4.5,0,,,
+deepseek-v4.1-flash,3,62.22222222222222,0.3036717062634988,45.0
+gemini-2.5-flash,3,97.77777777777777,0.9823078954317401,45.0
+gpt-4o,0,,,

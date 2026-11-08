@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Aradel",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 195575,
+  "completion_tokens": 15841,
+  "usd": 0.018956172,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Sustainability Committee supports the Board in overseeing the Company\u2019s sustainability and ESG agenda, with particular focus on the environmental, social and governance matters most material to the Company\u2019s core business (oil and gas).",
+        "cited_page_number": 75,
+        "auditor_rationale": "Board-level Sustainability Committee is disclosed with climate-related oversight responsibilities, but no climate-specific board expertise, meeting counts, or remuneration linkage are provided."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Executive Management is responsible for the day-to-day management of risks across Aradel and its subsidiaries.",
+        "cited_page_number": 43,
+        "auditor_rationale": "Management risk responsibility is generic; no dedicated climate management role, climate committee, or climate-linked management KPIs are disclosed."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_A",
+        "verbatim_evidence_quote": "The Company remains fully aligned with PIA 2021 zero-routine-flaring mandates and the Paris Agreement through ongoing HSE excellence (qualitative affirmation only in this extract).",
+        "cited_page_number": 31,
+        "auditor_rationale": "Climate-related claims are boilerplate/greenwashing; the document explicitly labels the Paris Agreement alignment as a qualitative affirmation only, with no quantified climate risk or opportunity assessment."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our business model is anchored on a clear purpose, to create enduring value by responsibly developing our oil and gas assets while delivering sustainable returns to all our stakeholders.",
+        "cited_page_number": 30,
+        "auditor_rationale": "Business model and value-chain activities are described with capital inputs, outputs, and outcomes, but climate-specific value-chain impacts and Scope 3 linkages are not quantified."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis, transition scenarios, or physical risk scenarios are disclosed."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Group\u2019s ERM framework maintains six principal risk categories that represent the key risk exposures facing the business.",
+        "cited_page_number": 43,
+        "auditor_rationale": "ERM framework is detailed and includes an Environmental, Social and Governance category, but climate risk is not separately identified, assessed, or integrated with quantitative climate metrics."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Aradel is investing in multiple projects to commercialise and monetise associated gas that would otherwise have been flared, thereby eliminating routine gas flaring from all of our production hubs.",
+        "cited_page_number": 22,
+        "auditor_rationale": "Operational mitigation is entity-specific through gas monetisation and flaring-reduction projects, but adaptation measures and quantified emissions reductions are incomplete."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No Scope 1, Scope 2, or Scope 3 GHG inventory is disclosed."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "0 Fire / 40 Routine Flare in Ogbele/ Flaring in Omerelu (figures stated in kt without rescaling from historical t units)",
+        "cited_page_number": 37,
+        "auditor_rationale": "Some extractive HSE metrics are entity-specific, but flaring figures are stated in kt without rescaling from historical t units, creating a unit-change anomaly."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" boundary.",
+        "cited_page_number": 19,
+        "auditor_rationale": "No decarbonisation target is disclosed, and the only net-zero reference is a boundary exclusion of 65% of equity production, a Type_C boundary anomaly."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No methane measurement, reporting, verification, or environmental tracking metrics are disclosed."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "0 Fire / 40 Routine Flare in Ogbele/ Flaring in Omerelu (figures stated in kt without rescaling from historical t units)",
+        "cited_page_number": 37,
+        "auditor_rationale": "Flaring commercialisation and spill metrics are entity-specific, but the flaring unit change without rescaling creates a Type_C anomaly."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "The Group makes full provision for the future cost of decommissioning oil & gas production facilities, refining facilities and pipelines on a discounted basis.",
+        "cited_page_number": 137,
+        "auditor_rationale": "Decommissioning and environmental provisions are disclosed, but there is an internal numeric contradiction: segment note reports profit after taxation of \u20a6364.2bn while the consolidated statement reports \u20a6757.3bn."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" boundary.",
+        "cited_page_number": 19,
+        "auditor_rationale": "Sustainability boundary is not aligned: 65% of equity production is excluded from the net-zero boundary, and production/reserves tables use inconsistent Renaissance equity percentages."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our inaugural Sustainability Report will be published in Q3, 2026 as a standalone disclosure, once we have completed the data governance, external assurance and reporting processes.",
+        "cited_page_number": 50,
+        "auditor_rationale": "IFRS S1/S2 adoption and future standalone sustainability report are mentioned, but no ICSR framework, ISSA 5000 readiness assessment, or sustainability assurance opinion is provided."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact Internal Carbon Price in USD/tCO2e is disclosed; IFRS S2 para 29(f) metric is absent."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact percentage of Executive Remuneration tied to climate KPIs is disclosed; IFRS S2 para 29(g) metric is absent."
+      }
+    ]
+  }
+}

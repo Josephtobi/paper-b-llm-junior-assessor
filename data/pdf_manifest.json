@@ -1,0 +1,47 @@
+{
+  "sample": ["Seplat", "Oando", "Aradel"],
+  "max_composite": 45,
+  "indicator_count": 15,
+  "page_anchor_scheme": {
+    "Seplat": "--- Page N --- (single source integrated report)",
+    "Oando": "--- SR Page N --- for sustainability report; --- FS Page N --- for financial statements",
+    "Aradel": "--- Page N --- (single source annual report)"
+  },
+  "entities": {
+    "Seplat": {
+      "tier": 1,
+      "sources": [
+        {
+          "role": "primary",
+          "path": "data/raw/seplat-2025-integrated-report.pdf",
+          "anchor_prefix": "Page"
+        }
+      ]
+    },
+    "Oando": {
+      "tier": 1,
+      "sources": [
+        {
+          "role": "sustainability",
+          "path": "data/raw/oando-2025-sustainability-report.pdf",
+          "anchor_prefix": "SR Page"
+        },
+        {
+          "role": "financial_statements",
+          "path": "data/raw/oando-2025-financial-statements.pdf",
+          "anchor_prefix": "FS Page"
+        }
+      ]
+    },
+    "Aradel": {
+      "tier": 1,
+      "sources": [
+        {
+          "role": "primary",
+          "path": "data/raw/Aradel-2025-Annual-Report.pdf",
+          "anchor_prefix": "Page"
+        }
+      ]
+    }
+  }
+}

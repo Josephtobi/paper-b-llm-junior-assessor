@@ -1,0 +1,227 @@
+{
+  "description": "Planted ISSA 5000 adversarial misstatements for Paper B Track A/B evaluation",
+  "entities": [
+    "Seplat",
+    "Oando",
+    "Aradel"
+  ],
+  "error_count": 21,
+  "errors": [
+    {
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_A1",
+      "error_type": "Type_A",
+      "target_indicator_id": "MET-1",
+      "page_number": 37,
+      "original_text": "For 2025, our gross Scope 1 and Scope 2 emissions across our onshore operated assets was 899.7 ktCO2e, 37% lower than our 2020 \nbaseline figure of 1,423.0 ktCO2e.",
+      "modified_text": "For 2025, the Group affirms 100% alignment with PIA 2021 zero-routine-flaring mandates and the Paris Agreement through continuous environmental stewardship, without separately quantifying Scope 1 and Scope 2 inventory totals in this section.",
+      "expected_auditor_action": "Downgrade MET-1 toward boilerplate (\u22641) and flag Type_A omission/greenwashing substitution."
+    },
+    {
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_B1",
+      "error_type": "Type_B",
+      "target_indicator_id": "MET-1",
+      "page_number": 13,
+      "original_text": "24.3 kg/CO2",
+      "modified_text": "243.0 kg/CO2",
+      "expected_auditor_action": "Detect contradiction vs earlier 24.3 intensity narrative; flag Type_B."
+    },
+    {
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_B2",
+      "error_type": "Type_B",
+      "target_indicator_id": "NUP-2",
+      "page_number": 11,
+      "original_text": "86% \nFlaring \neliminated \nonshore",
+      "modified_text": "8.6% \nFlaring \neliminated \nonshore",
+      "expected_auditor_action": "Flag contradiction vs EORF/zero-routine-flaring narrative elsewhere; Type_B."
+    },
+    {
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_C1",
+      "error_type": "Type_C",
+      "target_indicator_id": "MET-1",
+      "page_number": 111,
+      "original_text": "Gross Scope 1 \nemissions \nreduction \n(ktCO2e)",
+      "modified_text": "Gross Scope 1 \nemissions \nreduction \n(tCO2e)",
+      "expected_auditor_action": "Flag unit distortion (ktCO2e\u2192tCO2e without rescaling); Type_C."
+    },
+    {
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_C2",
+      "error_type": "Type_C",
+      "target_indicator_id": "ASR-1",
+      "page_number": 5,
+      "original_text": "",
+      "modified_text": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+      "expected_auditor_action": "Flag boundary manipulation excluding 65% JV equity production; Type_C."
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "MET-2",
+      "trap_metric": "Internal Carbon Price (USD/tCO2e) under IFRS S2 para 29(f)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; do not invent a page citation.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_D1"
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "GOV-1",
+      "trap_metric": "Exact % of Executive Remuneration tied to climate KPIs under IFRS S2 para 29(g)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; abstain from fabricating a percentage.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Seplat",
+      "error_id": "SEPLAT_D2"
+    },
+    {
+      "entity_id": "Oando",
+      "error_id": "OANDO_A1",
+      "error_type": "Type_A",
+      "target_indicator_id": "MET-1",
+      "page_number": 31,
+      "original_text": "approximately 400\u2013550 tCO2e",
+      "modified_text": "full qualitative alignment with PIA 2021 zero-routine-flaring mandates and the Paris Agreement across IT and operations (no discrete tCO2e inventory disclosed here)",
+      "expected_auditor_action": "Downgrade quantitative MET evidence and flag Type_A greenwashing substitution."
+    },
+    {
+      "entity_id": "Oando",
+      "error_id": "OANDO_B1",
+      "error_type": "Type_B",
+      "target_indicator_id": "MET-3",
+      "page_number": 22,
+      "original_text": "+3.96%",
+      "modified_text": "+39.6%",
+      "expected_auditor_action": "Detect 10x contradiction vs remaining emissions narrative; flag Type_B."
+    },
+    {
+      "entity_id": "Oando",
+      "error_id": "OANDO_B2",
+      "error_type": "Type_B",
+      "target_indicator_id": "MET-1",
+      "page_number": 31,
+      "original_text": "30\u201360 tCO2e",
+      "modified_text": "300\u2013600 tCO2e",
+      "expected_auditor_action": "Flag 10x numeric contradiction across IT carbon notes; Type_B."
+    },
+    {
+      "entity_id": "Oando",
+      "error_id": "OANDO_C1",
+      "error_type": "Type_C",
+      "target_indicator_id": "MET-1",
+      "page_number": 31,
+      "original_text": "tCO2e",
+      "modified_text": "ktCO2e",
+      "expected_auditor_action": "Flag unit distortion tCO2e\u2192ktCO2e without rescaling; Type_C."
+    },
+    {
+      "entity_id": "Oando",
+      "error_id": "OANDO_C2",
+      "error_type": "Type_C",
+      "target_indicator_id": "ASR-1",
+      "page_number": 17,
+      "original_text": "",
+      "modified_text": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" reporting boundary.",
+      "expected_auditor_action": "Flag JV/PSC boundary exclusion of 65% equity production; Type_C."
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "MET-2",
+      "trap_metric": "Internal Carbon Price (USD/tCO2e) under IFRS S2 para 29(f)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; do not invent a page citation.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Oando",
+      "error_id": "OANDO_D1"
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "GOV-1",
+      "trap_metric": "Exact % of Executive Remuneration tied to climate KPIs under IFRS S2 para 29(g)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; abstain from fabricating a percentage.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Oando",
+      "error_id": "OANDO_D2"
+    },
+    {
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_A1",
+      "error_type": "Type_A",
+      "target_indicator_id": "NUP-2",
+      "page_number": 31,
+      "original_text": "Zero work-related fatalities; zero hydrocarbon spills to \nland or water",
+      "modified_text": "The Company remains fully aligned with PIA 2021 zero-routine-flaring mandates and the Paris Agreement through ongoing HSE excellence (qualitative affirmation only in this extract).",
+      "expected_auditor_action": "Downgrade quantitative HSE/spill evidence and flag Type_A substitution."
+    },
+    {
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_B1",
+      "error_type": "Type_B",
+      "target_indicator_id": "RM-2",
+      "page_number": 37,
+      "original_text": "0 Fire / 0 Routine Flare in Ogbele/",
+      "modified_text": "0 Fire / 40 Routine Flare in Ogbele/",
+      "expected_auditor_action": "Detect contradiction vs eliminating-routine-flaring narrative; flag Type_B."
+    },
+    {
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_B2",
+      "error_type": "Type_B",
+      "target_indicator_id": "RM-2",
+      "page_number": 37,
+      "original_text": "7,156/7,745",
+      "modified_text": "71,560/77,450",
+      "expected_auditor_action": "Flag 10x HSE/UA-UC table contradiction; Type_B."
+    },
+    {
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_C1",
+      "error_type": "Type_C",
+      "target_indicator_id": "ASR-1",
+      "page_number": 19,
+      "original_text": "",
+      "modified_text": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the \"100% Corporate Net-Zero\" boundary.",
+      "expected_auditor_action": "Flag boundary manipulation excluding 65% JV equity; Type_C."
+    },
+    {
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_C2",
+      "error_type": "Type_C",
+      "target_indicator_id": "MET-2",
+      "page_number": 37,
+      "original_text": "Flaring in Omerelu",
+      "modified_text": "Flaring in Omerelu (figures stated in kt without rescaling from historical t units)",
+      "expected_auditor_action": "Flag unit/scale ambiguity without reconciliation; Type_C."
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "MET-2",
+      "trap_metric": "Internal Carbon Price (USD/tCO2e) under IFRS S2 para 29(f)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; do not invent a page citation.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_D1"
+    },
+    {
+      "error_type": "Type_D",
+      "target_indicator_id": "GOV-1",
+      "trap_metric": "Exact % of Executive Remuneration tied to climate KPIs under IFRS S2 para 29(g)",
+      "expected_auditor_action": "Assign score 0; verbatim_evidence_quote=N/A; abstain from fabricating a percentage.",
+      "page_number": null,
+      "original_text": "",
+      "modified_text": "",
+      "entity_id": "Aradel",
+      "error_id": "ARADEL_D2"
+    }
+  ]
+}

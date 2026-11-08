@@ -1,0 +1,485 @@
+{
+  "spent_usd": 3.618496440999999,
+  "calls": [
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 369034,
+      "completion_tokens": 18956,
+      "usd": 0.029568786,
+      "elapsed_s": 222.76
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 367548,
+      "completion_tokens": 13022,
+      "usd": 0.026128422,
+      "elapsed_s": 46.12
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 367549,
+      "completion_tokens": 18722,
+      "usd": 0.029360372999999995,
+      "elapsed_s": 72.09
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 367587,
+      "completion_tokens": 11486,
+      "usd": 0.025259498999999998,
+      "elapsed_s": 30.47
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 367587,
+      "completion_tokens": 18863,
+      "usd": 0.029442258,
+      "elapsed_s": 121.47
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 367588,
+      "completion_tokens": 10685,
+      "usd": 0.024805383,
+      "elapsed_s": 44.24
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 261067,
+      "completion_tokens": 15183,
+      "usd": 0.021923177999999998,
+      "elapsed_s": 48.24
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 261067,
+      "completion_tokens": 15084,
+      "usd": 0.021867044999999998,
+      "elapsed_s": 40.35
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 261087,
+      "completion_tokens": 131072,
+      "usd": 0.08763326099999999,
+      "elapsed_s": 255.62
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 261136,
+      "completion_tokens": 13807,
+      "usd": 0.021146504999999996,
+      "elapsed_s": 101.68
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 261136,
+      "completion_tokens": 14518,
+      "usd": 0.021549641999999994,
+      "elapsed_s": 37.39
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 261136,
+      "completion_tokens": 14542,
+      "usd": 0.021563249999999996,
+      "elapsed_s": 38.13
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 195518,
+      "completion_tokens": 131072,
+      "usd": 0.08428924199999999,
+      "elapsed_s": 214.54
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 195497,
+      "completion_tokens": 18497,
+      "usd": 0.020458145999999997,
+      "elapsed_s": 60.69
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 195496,
+      "completion_tokens": 23340,
+      "usd": 0.023204075999999997,
+      "elapsed_s": 79.39
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 195575,
+      "completion_tokens": 15841,
+      "usd": 0.018956172,
+      "elapsed_s": 55.2
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 195574,
+      "completion_tokens": 131072,
+      "usd": 0.084292098,
+      "elapsed_s": 198.71
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 195575,
+      "completion_tokens": 12540,
+      "usd": 0.017084505,
+      "elapsed_s": 38.83
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 443121,
+      "completion_tokens": 5044,
+      "usd": 0.1455463,
+      "elapsed_s": 22.98
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 443121,
+      "completion_tokens": 5044,
+      "usd": 0.1455463,
+      "elapsed_s": 19.29
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 443121,
+      "completion_tokens": 5044,
+      "usd": 0.1455463,
+      "elapsed_s": 19.55
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 443165,
+      "completion_tokens": 5495,
+      "usd": 0.146687,
+      "elapsed_s": 25.13
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 443165,
+      "completion_tokens": 5075,
+      "usd": 0.145637,
+      "elapsed_s": 19.47
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 443165,
+      "completion_tokens": 5075,
+      "usd": 0.145637,
+      "elapsed_s": 19.22
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 314449,
+      "completion_tokens": 3758,
+      "usd": 0.1037297,
+      "elapsed_s": 15.44
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 314449,
+      "completion_tokens": 3988,
+      "usd": 0.1043047,
+      "elapsed_s": 14.36
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 314449,
+      "completion_tokens": 3988,
+      "usd": 0.1043047,
+      "elapsed_s": 14.27
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 314521,
+      "completion_tokens": 3975,
+      "usd": 0.10429379999999999,
+      "elapsed_s": 15.65
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 314521,
+      "completion_tokens": 3975,
+      "usd": 0.10429379999999999,
+      "elapsed_s": 13.95
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 314521,
+      "completion_tokens": 3975,
+      "usd": 0.10429379999999999,
+      "elapsed_s": 14.45
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 228750,
+      "completion_tokens": 3834,
+      "usd": 0.07821,
+      "elapsed_s": 15.5
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 2,
+      "prompt_tokens": 228750,
+      "completion_tokens": 3439,
+      "usd": 0.0772225,
+      "elapsed_s": 13.42
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 3,
+      "prompt_tokens": 228750,
+      "completion_tokens": 3439,
+      "usd": 0.0772225,
+      "elapsed_s": 13.36
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 228833,
+      "completion_tokens": 3545,
+      "usd": 0.0775124,
+      "elapsed_s": 15.23
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 2,
+      "prompt_tokens": 228833,
+      "completion_tokens": 3571,
+      "usd": 0.0775774,
+      "elapsed_s": 14.56
+    },
+    {
+      "model": "google/gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 3,
+      "prompt_tokens": 228833,
+      "completion_tokens": 3571,
+      "usd": 0.0775774,
+      "elapsed_s": 14.25
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 20604,
+      "completion_tokens": 1725,
+      "usd": 0.06876,
+      "elapsed_s": 9.84
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 20585,
+      "completion_tokens": 1755,
+      "usd": 0.06901249999999999,
+      "elapsed_s": 9.94
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 18244,
+      "completion_tokens": 1828,
+      "usd": 0.06389,
+      "elapsed_s": 13.23
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 18284,
+      "completion_tokens": 1827,
+      "usd": 0.06398000000000001,
+      "elapsed_s": 10.2
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 14862,
+      "completion_tokens": 1750,
+      "usd": 0.054655,
+      "elapsed_s": 10.17
+    },
+    {
+      "model": "openai/gpt-4o",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 14937,
+      "completion_tokens": 1751,
+      "usd": 0.0548525,
+      "elapsed_s": 9.7
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Seplat",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 23531,
+      "completion_tokens": 3589,
+      "usd": 0.12442800000000001,
+      "elapsed_s": 70.68
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 23504,
+      "completion_tokens": 3318,
+      "usd": 0.120282,
+      "elapsed_s": 64.85
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Oando",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 21631,
+      "completion_tokens": 3292,
+      "usd": 0.114273,
+      "elapsed_s": 63.52
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Oando",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 21673,
+      "completion_tokens": 3460,
+      "usd": 0.11691900000000001,
+      "elapsed_s": 65.99
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Aradel",
+      "version": "clean",
+      "run": 1,
+      "prompt_tokens": 17244,
+      "completion_tokens": 2937,
+      "usd": 0.095787,
+      "elapsed_s": 51.14
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "run": 1,
+      "prompt_tokens": 17326,
+      "completion_tokens": 3067,
+      "usd": 0.097983,
+      "elapsed_s": 53.55
+    }
+  ]
+}

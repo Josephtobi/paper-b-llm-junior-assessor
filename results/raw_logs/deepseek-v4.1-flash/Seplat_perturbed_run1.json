@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Seplat",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 367587,
+  "completion_tokens": 11486,
+  "usd": 0.025259498999999998,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company\u2019s sustainability and climate strategy",
+        "cited_page_number": 112,
+        "auditor_rationale": "Board oversight is clearly assigned, with dedicated Board committees, quarterly meetings, sustainability training, and remuneration scorecard linkage. Entity-specific and investor-grade."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy\u2019s sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC).",
+        "cited_page_number": 112,
+        "auditor_rationale": "Management roles are specific: CEO-led, SMC monthly, SLT and Board reporting, with named functional responsibilities. Meets investor-grade expectations."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "we consider climate-related risks under two broad categories: physical risk and transition risk.",
+        "cited_page_number": 137,
+        "auditor_rationale": "Detailed physical and transition risk/opportunity table with timeframes, impacts, and mitigation actions. Entity-specific and quantitative where relevant."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are part of an energy value chain that starts at the well and ends with collecting payment from the customer",
+        "cited_page_number": 20,
+        "auditor_rationale": "Business model and value-chain impacts are described across upstream, midstream gas, and new energy, with capital inputs and strategic priorities."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We conducted our annual scenario analysis for the 2025 financial year to assess shifts in the macroeconomic outlook, technology developments, policy and legal implications.",
+        "cited_page_number": 148,
+        "auditor_rationale": "Uses IEA NZE, CPS, and STEPS scenarios, NPV15 portfolio assessment, and quantitative oil-price sensitivities. Investor-grade climate scenario analysis."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Seplat has integrated ESG and sustainability matters into our Enterprise Risk Management (ERM) framework and register",
+        "cited_page_number": 135,
+        "auditor_rationale": "Climate and sustainability risks are integrated into the ERM framework, risk universe, principal risks, and Board Risk & HSSE Committee oversight."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are pleased to report we officially ended routine flaring on our operated onshore operations in early 2026 following commencement of commercial operations from the ANOH Gas Plant.",
+        "cited_page_number": 35,
+        "auditor_rationale": "Operational mitigation and adaptation are specific: EORF, flare-out projects, LDAR, methane reduction, water management, and physical climate risk planning."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "Gross Scope 1 tCO\u2082e 2,257,048 600,721",
+        "cited_page_number": 114,
+        "auditor_rationale": "Scope 1, 2 and 3 data are provided, but internal numeric contradictions exist, e.g. Gross Scope 1 2,257,048 tCO2e versus onshore+offshore sums, and intensity 24.3 versus 243.0 kgCO2/boe. Boundary exclusion also affects completeness."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "SASB Oil & Gas Extraction & Production Standard",
+        "cited_page_number": 110,
+        "auditor_rationale": "SASB extractive metrics are broadly covered: reserves, production, flaring, spills, water, waste, safety, and emissions. Quantitative and entity-specific."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Decarbonisation targets are quantitative, but the net-zero boundary excludes non-operated JV assets representing 65% of equity production, making the target incomplete and not investor-grade."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "CH4 1 tCO\u2082e 266,565 127,588",
+        "cited_page_number": 114,
+        "auditor_rationale": "Methane MRV and LDAR are described, but methane totals contradict the reduction table on page 111, which reports 270 tCO2e versus 266,565 tCO2e on page 114."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "In the period, across our Group operations, we recorded nine Tier-1 Loss of Primary Containment (LOPC) incidents, of which two were fire incidents, five gas releases and two oil spills.",
+        "cited_page_number": 37,
+        "auditor_rationale": "Flaring commercialisation and spill data are present, but LOPC counts contradict page 120, which reports 12 recordable LOPC events comprising eight Tier 1 and four Tier 2 events."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the measurement of asset retirement obligations (AROs), management incorporates sustainability-related considerations including costs, such as those associated with decommissioning and restoring sites to meet environmental standards.",
+        "cited_page_number": 311,
+        "auditor_rationale": "Explicit connectivity to IAS 36 impairment and IAS 37 provisions, including decommissioning, asset retirement obligations, and climate-related cash-flow assumptions."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "[PLANTED FOOTNOTE \u2014 Type_C] Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Sustainability boundary is described, but the exclusion of non-operated JV assets representing 65% of equity production from the net-zero boundary creates material misalignment."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The sustainability-related financial disclosures of Seplat Energy have been prepared in accordance with IFRS Sustainability Disclosure Standards as issued by the ISSB",
+        "cited_page_number": 110,
+        "auditor_rationale": "ISSB compliance and financial ICFR are stated, but there is no explicit ISSA 5000 readiness assessment or sustainability-specific internal control over sustainability reporting."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact Internal Carbon Price in USD/tCO2e. It only says the Group is working towards incorporating carbon pricing and plans to factor carbon pricing into future scenario analyses."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs. It gives ESG scorecard weightings such as 30% ESG, 5% EORF, and 2.5% reforestation, but not the exact remuneration percentage required by IFRS S2 para 29(g)."
+      }
+    ]
+  }
+}

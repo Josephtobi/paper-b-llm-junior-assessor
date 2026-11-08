@@ -1,0 +1,170 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "slug": "gemini-2.5-flash",
+  "track": "A_full",
+  "entity_id": "Aradel",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 228750,
+  "completion_tokens": 3834,
+  "usd": 0.07821,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board sets the tone for integrity and accountability and ensures that the Company\u2019s governance framework aligns with the highest standards applicable to the industry, including the Nigerian Code of Corporate Governance (NCCG), the SEC Corporate Governance Guidelines, other relevant governance requirements and guidelines (including but not limited to other sector-specific expectations). In carrying out its responsibilities, the Board promotes effective risk management, transparent reporting and ethical conduct, while maintaining a clear focus on sustainability by embedding environmental, social and governance (ESG) considerations into strategy, decision-making and operational oversight to steadily improve the Company\u2019s profitability & sustainability imprint across its assets, projects and host communities.",
+        "cited_page_number": 71,
+        "auditor_rationale": "The document explicitly states that the Board embeds ESG considerations into strategy, decision-making, and operational oversight, demonstrating a clear link between board oversight and sustainability. However, it lacks specific details on how frequently the board reviews climate-related matters or the specific mechanisms for integrating these considerations into board-level decisions beyond a general statement. There is no mention of executive remuneration tied to climate KPIs."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Executive Management is responsible for the day-to-day management of risks across Aradel and its subsidiaries. The Managing Director continues to steer the annual enterprise-wide risk workshop to assess the short- and medium-term risk outlook. This workshop brings together tactical and strategic management teams, who are accountable for managing risks within their respective processes. To reinforce the risk culture, designated risk owners perform ongoing risk assessments of risks within their areas and related interdependent risks and report on these quarterly.",
+        "cited_page_number": 45,
+        "auditor_rationale": "The document outlines the role of Executive Management in day-to-day risk management, including an annual enterprise-wide risk workshop and quarterly reporting by designated risk owners. This indicates a structured approach to management's role in sustainability-related matters (as ESG is part of risk management). However, it could provide more specific examples of how management's responsibilities directly translate into climate-related actions and outcomes, or how climate expertise is built within management."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The global energy landscape is expected to remain dynamic, shaped by commodity price volatility, the accelerating pace of the energy transition, and, within Nigeria, the continued implementation of the Petroleum Industry Act alongside broader macroeconomic reforms. Against this backdrop, the Board\u2019s focus is on ensuring the Company remains resilient through the cycle while continuing to invest for long-term value.",
+        "cited_page_number": 20,
+        "auditor_rationale": "The company acknowledges the 'accelerating pace of the energy transition' and its impact on the global energy landscape, indicating an awareness of climate-related risks and opportunities. It also mentions exploring opportunities in renewable energy. However, the disclosure is somewhat generic and lacks specific details on identified climate risks (e.g., physical, transition) and opportunities (e.g., new low-carbon products/services) relevant to its operations, or how these are integrated into its long-term strategy beyond general statements."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Aradel Holdings\u2019 purpose is to create enduring value by responsibly developing our oil and gas assets whilst delivering sustainable returns to our stakeholders. Guided by a long-term perspective on energy provision, Aradel Holdings is committed to supporting Nigeria\u2019s energy needs while navigating the global energy transition.",
+        "cited_page_number": 4,
+        "auditor_rationale": "The company states its purpose includes 'responsibly developing our oil and gas assets whilst delivering sustainable returns' and 'navigating the global energy transition.' It also mentions exploring opportunities in renewable energy. This indicates an understanding of its business model's impact on sustainability. However, it lacks a detailed analysis of how its core business model and value chain specifically contribute to or are impacted by climate change, or how it plans to adapt its business model in response to the energy transition beyond general statements."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not contain any information about climate scenario analysis, such as the scenarios used, their assumptions, or the resilience of the company's strategy under different climate-related futures."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Aradel Enterprise Risk Management (ERM) system is underpinned by a disciplined and systematic framework that clearly defines roles, responsibilities, and accountability for risk management. Through established internal control systems, policies and procedures, continuous monitoring, and timely reporting, we actively identify, assess, and respond to risks across the organisation in a coordinated and consistent manner. This approach supports informed decision-making and strengthens our ability to respond effectively to both emerging and existing risks.",
+        "cited_page_number": 44,
+        "auditor_rationale": "The document describes a robust ERM system that identifies, assesses, mitigates, and monitors risks across the business, including an 'Environmental, Social and Governance' risk category. This indicates integration of climate-related risks into the broader ERM framework. However, it does not provide specific details on how climate-related risks are prioritized, quantified, or managed within this framework, or how they influence strategic risk decisions."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, we continued to advance our environmental management practices across all operated assets, with a focus on emissions reduction, responsible flaring management, and the protection of the natural ecosystems in which we operate. Our gas monetisation strategy, which delivered a 59% increase in average gas production during the year, is also a direct contribution to reducing routine flaring and increasing the productive utilisation of associated gas resources.",
+        "cited_page_number": 28,
+        "auditor_rationale": "The company mentions advancing environmental management practices, focusing on 'emissions reduction' and 'responsible flaring management,' and highlights its gas monetization strategy as a contribution to reducing routine flaring. This indicates operational mitigation efforts. However, it lacks specific quantitative targets or detailed descriptions of adaptation measures for physical climate risks, or a comprehensive overview of all operational mitigation strategies."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document mentions 'emissions reduction' and 'reducing routine flaring' but does not provide a quantitative inventory of Scope 1, 2, or 3 GHG emissions for the reporting period. This is a significant omission for an oil and gas company."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not provide any SASB (Sustainability Accounting Standards Board) extractive industry metrics, such as methane emissions intensity, freshwater withdrawal, or other industry-specific disclosures."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the year ahead, we will focus on growing reserves and production, with 2026 production guidance of 110,000 \u2013 140,000 boepd, increasing refinery utilisation toward 50%, and advancing our commitment to eliminating routine flaring, and consolidating our strategic investments.",
+        "cited_page_number": 20,
+        "auditor_rationale": "The company states a commitment to 'eliminating routine flaring' and mentions its gas monetization strategy as a contribution to reducing routine flaring. This indicates a decarbonization target related to flaring. However, it lacks broader, quantitative, and time-bound targets for overall GHG emissions reduction (e.g., net-zero targets, intensity targets for Scope 1, 2, or 3 emissions)."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our gas monetisation strategy, which delivered a 59% increase in average gas production during the year, is also a direct contribution to reducing routine flaring and increasing the productive utilisation of associated gas resources.",
+        "cited_page_number": 28,
+        "auditor_rationale": "The document mentions 'reducing routine flaring' through gas monetization, which implicitly addresses methane emissions. However, it lacks specific details on methane measurement, reporting, and verification (MRV) practices, or a comprehensive environmental tracking system beyond general statements."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "In the year ahead, we will focus on growing reserves and production, with 2026 production guidance of 110,000 \u2013 140,000 boepd, increasing refinery utilisation toward 50%, and advancing our commitment to eliminating routine flaring, and consolidating our strategic investments.",
+        "cited_page_number": 20,
+        "auditor_rationale": "The company explicitly states a commitment to 'eliminating routine flaring' and reports 'zero hydrocarbon spills to land or water' for its operated assets. However, it also reports 'Flaring in Omerelu' on page 37 and '6.8% attributable to flaring' of total gas production on page 38, which contradicts the 'zero routine flare in Ogbele' and 'eliminating routine flaring' statements. This indicates an internal numeric contradiction (Type_B anomaly) and a potential boundary exclusion (Type_C anomaly) if the 'zero' claim only applies to specific assets while flaring continues elsewhere within the group. The document also mentions a $4.7 million 'flare charges/fees' on page 78, further contradicting the 'zero routine flare' claim. The 'zero hydrocarbon spills' is a positive, but the flaring data is inconsistent."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Group recognises a decommissioning liability when it has a present legal or constructive obligation as a result of past events, and it is probable that an outflow of resources will be required to settle the obligation, and a reliable estimate of the amount of obligation can be made.",
+        "cited_page_number": 116,
+        "auditor_rationale": "The document explicitly details the accounting for decommissioning liabilities (IAS 37) and mentions environmental and legal provisions, indicating connectivity with relevant IFRS standards. However, it does not explicitly discuss the connectivity of climate-related risks and opportunities with IAS 36 (Impairment of Assets) or other financial reporting standards beyond the general statement that 'sustainability-related risks and opportunities are identified, managed, and disclosed with the same rigour as is applied to financial performance and capital allocation' (page 20)."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Group obtained control of two new subsidiaries, ND Western Limited (NDW) and Renaissance Africa Energy Company Limited (RAEC), following the acquisition of an additional 40% equity interest in NDW on 31 December 2025, increasing the Group's total ownership interest to 81.67%. As a result, the Group's indirect interest in RAEC increased to 53.335%, comprising a direct holding of 12.5% and an indirect interest of 40.835% through NDW's 50% equity interest in RAEC. Control over both entities was determined to have been obtained on 30 December 2025, which constitutes the acquisition date for the purposes of IFRS 3 - Business Combinations. The assets and liabilities of NDW and RAEC have been fully consolidated into the Group's statement of financial position as at 31 December 2025.",
+        "cited_page_number": 108,
+        "auditor_rationale": "The document clearly outlines the consolidation of newly acquired subsidiaries (ND Western Limited and Renaissance Africa Energy Company Limited) and their assets and liabilities, indicating a defined financial reporting boundary. It also states that the inaugural sustainability report will be published as a standalone document. However, it does not explicitly confirm that the sustainability reporting boundary aligns with the financial reporting boundary for all material sustainability-related information, especially for the newly acquired entities, or how non-controlled assets are treated in sustainability disclosures."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The year was also our first full year following our successful NGX listing, and we reinforced our leadership in governance, transparency, and corporate reporting through the voluntary adoption of IFRS S1 and S2 sustainability disclosure standards. This reflects the Board\u2019s firm belief that robust governance, responsible business practices, and transparent reporting are fundamental to preserving investor confidence and sustaining long-term value creation. The adoption of IFRS S1 and S2 will help ensure that sustainability-related risks and opportunities are identified, managed, and disclosed with the same rigour as is applied to financial performance and capital allocation. Our inaugural sustainability report will be published as a standalone document.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The company explicitly states its voluntary adoption of IFRS S1 and S2 sustainability disclosure standards and its intention to publish an inaugural standalone sustainability report in Q3 2026. This demonstrates a clear commitment to ISSA 5000 readiness. However, the report is not yet published, so the actual implementation and completeness of the disclosures cannot be fully assessed. The current report provides a forward-looking statement rather than a completed assessment of readiness."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact Internal Carbon Price in USD/tCO2e as required by IFRS S2 para 29(f)."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs as required by IFRS S2 para 29(g)."
+      }
+    ]
+  }
+}

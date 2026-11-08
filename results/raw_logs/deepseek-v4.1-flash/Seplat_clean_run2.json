@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Seplat",
+  "version": "clean",
+  "run": 2,
+  "prompt_tokens": 367548,
+  "completion_tokens": 13022,
+  "usd": 0.026128422,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company\u2019s sustainability and climate strategy, ensuring that these considerations are fully integrated into our overall risk management and financial decision-making frameworks in line with IFRS S1 and IFRS S2 requirements.",
+        "cited_page_number": 112,
+        "auditor_rationale": "Board accountability for sustainability and climate strategy is explicitly stated, with dedicated Board committees and quarterly oversight described."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy\u2019s sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC).",
+        "cited_page_number": 112,
+        "auditor_rationale": "Management roles are clearly assigned to the CEO, SLT and SMC, with specific responsibilities and reporting lines disclosed."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We recognise that as an energy company operating in the Niger Delta, our business is exposed to significant risks from climate change.",
+        "cited_page_number": 137,
+        "auditor_rationale": "Climate-related physical and transition risks and opportunities are identified and assessed in detail, including impacts, timeframes and mitigation actions."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are part of an energy value chain that starts at the well and ends with collecting payment from the customer",
+        "cited_page_number": 20,
+        "auditor_rationale": "The business model and value-chain positioning are described, including upstream, midstream gas and new energy activities and their climate-related implications."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We conducted our annual scenario analysis for the 2025 financial year to assess shifts in the macroeconomic outlook, technology developments, policy and legal implications.",
+        "cited_page_number": 148,
+        "auditor_rationale": "Scenario analysis uses IEA NZE, CPS and STEPS scenarios, with quantitative NPV15 and oil-price resilience results across the portfolio."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Seplat has integrated ESG and sustainability matters into our Enterprise Risk Management (ERM) framework and register, following guidance from the Risk Committee.",
+        "cited_page_number": 135,
+        "auditor_rationale": "Sustainability and climate risks are integrated into the ERM framework, risk universe and principal risk register with Board committee oversight."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are pleased to report we officially ended routine flaring on our operated onshore operations in early 2026 following commencement of commercial operations from the ANOH Gas Plant.",
+        "cited_page_number": 37,
+        "auditor_rationale": "Operational mitigation and adaptation actions are specific and quantified, including EORF completion, methane LDAR, solar projects and emissions-reduction investments."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "gross Scope 1 and Scope 2 emissions across our onshore operated assets was 899.7 ktCO2e",
+        "cited_page_number": 37,
+        "auditor_rationale": "Scope 1, 2 and 3 data are disclosed by asset and category, but internal numeric contradictions exist: page 37 states onshore gross Scope 1 and 2 emissions of 899.7 ktCO2e, while page 116 table implies different onshore Scope 1 totals and page 117 states onshore Scope 1 emissions of 389,441 tCO2e. Scope 3 is also incomplete at six of eight categories."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Total water consumed m\u00b3 196,844 43,105",
+        "cited_page_number": 119,
+        "auditor_rationale": "Several SASB extractive metrics are reported quantitatively, including water, waste, spills, air emissions and safety, but coverage is incomplete and some prior-year comparatives are blank."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore: End of routine flares (EORF) by 2026, 70% Scope 1 emissions reduction from our 2020 baseline",
+        "cited_page_number": 111,
+        "auditor_rationale": "Quantified decarbonisation targets are disclosed, including EORF by 2026, 70% Scope 1 reduction from 2020, methane reduction, net zero by 2050 and Tree4Life planting targets."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The first ever third-party lead, facility-wide fugitive leak detection campaign across all WA facilities was successfully completed in Q4 2025.",
+        "cited_page_number": 118,
+        "auditor_rationale": "Methane MRV and environmental tracking are detailed, including LDAR campaigns, OGI consultants, Fluenta flare meters, fugitive emissions identification and methane reduction strategy."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, we recorded 12 recordable process safety (API RP 754) Loss of primary containment (LOPC) events, comprising eight Tier 1 and four Tier 2 events.",
+        "cited_page_number": 122,
+        "auditor_rationale": "Flaring commercialisation and spill performance are quantitatively disclosed, including EORF projects, gas plant commissioning, hydrocarbon spill counts, volumes and recovery percentages."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the measurement of asset retirement obligations (AROs), management incorporates sustainability-related considerations including costs, such as those associated with decommissioning and restoring sites to meet environmental standards.",
+        "cited_page_number": 313,
+        "auditor_rationale": "Climate and sustainability considerations are linked to IAS 36 impairment and IAS 37 provisions through accounting policy disclosures, but the connectivity is largely qualitative and not fully quantified."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We use the equity approach to calculate greenhouse gas (GHG) emissions, acid gases and water",
+        "cited_page_number": 110,
+        "auditor_rationale": "The sustainability reporting boundary is defined, including equity-method GHG accounting and inclusion of SEPNU, but some targets cover only operated assets, creating a partial boundary limitation."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The sustainability-related financial disclosures of Seplat Energy have been prepared in accordance with IFRS Sustainability Disclosure Standards as issued by the ISSB, in line with the adoption roadmap issued by the Financial Reporting Council of Nigeria.",
+        "cited_page_number": 112,
+        "auditor_rationale": "IFRS S1/S2 alignment and an independent practitioner\u2019s report are referenced, but ICSR and ISSA 5000 readiness are not explicitly described in detail."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact internal carbon price in USD/tCO2e. It only states that Seplat is working towards incorporating carbon pricing into project evaluation procedures and plans to factor carbon pricing into future scenario analyses."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of executive remuneration tied to climate KPIs. It discloses 30% of corporate scorecard KPIs dedicated to ESG targets and a 5% EORF component, but not the exact percentage of executive remuneration linked to climate KPIs."
+      }
+    ]
+  }
+}

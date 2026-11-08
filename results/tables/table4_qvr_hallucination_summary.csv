@@ -1,0 +1,5 @@
+model,qvr_pct,type_d_hallucination_pct
+claude-sonnet-4.5,70.44844044844045,0.0
+deepseek-v4.1-flash,100.0,0.0
+gemini-2.5-flash,96.14672364672364,0.0
+gpt-4o,98.80952380952381,0.0

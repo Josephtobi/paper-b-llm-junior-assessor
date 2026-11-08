@@ -1,0 +1,171 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "slug": "claude-sonnet-4.5",
+  "track": "B_pack",
+  "entity_id": "Seplat",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 23531,
+  "completion_tokens": 3589,
+  "usd": 0.12442800000000001,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company's sustainability and climate strategy, ensuring that these considerations are fully integrated into our overall risk management and financial decision-making frameworks in line with IFRS S1 and IFRS S2 requirements. To effectively manage and oversee sustainability- and climate-related risks, the Board has established dedicated committees that meet quarterly and has delegated the implementation of the strategic framework to the CEO.",
+        "cited_page_number": 114,
+        "auditor_rationale": "Board oversight is described with entity-specific committees (Sustainability Committee, Risk Management and HSE Committee, Energy Transition Committee) and quarterly meetings. However, no quantitative metrics on Board composition, attendance, or specific climate expertise are provided. The disclosure is entity-specific but incomplete for investor-grade detail."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy's sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC). The execution of the sustainability initiatives are handled by different teams within the organisation... The SMC meets monthly and reports its findings and recommendations to the SLT and the Board.",
+        "cited_page_number": 112,
+        "auditor_rationale": "Management role is described with CEO leadership, SLT support, and a monthly Sustainability Management Committee. Functional roles are outlined. However, no quantitative KPIs or specific accountability metrics for management performance on climate issues are disclosed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We recognise that as an energy company operating in the Niger Delta, our business is exposed to significant risks from climate change... In accordance with best practice, we consider climate-related risks under two broad categories: physical risk and transition risk.",
+        "cited_page_number": 137,
+        "auditor_rationale": "Climate risks and opportunities are identified across physical (flooding, sea-level rise) and transition (market, policy, technology, reputation) categories with qualitative descriptions. However, quantitative financial impacts or probability assessments are not provided. Entity-specific but incomplete for investor-grade disclosure."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our JVs supply up to 30% of Nigeria's grid-connected gas for power generation. 555 MMscfd of gas processing capacity at Oben and Sapele, with ANOH Gas Plant adding up to 300 MMscfd that will enable new industrial and power generation growth.",
+        "cited_page_number": 9,
+        "auditor_rationale": "Business model impact is described with specific gas supply volumes and infrastructure capacity. However, detailed value-chain emissions analysis (Scope 3 breakdown by category) and quantitative financial impacts on business model from climate transition are not fully disclosed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "A scenario analysis on page 150 shows that the Company's oil and gas portfolio is resilient to both lower prices and lower demand for oil and gas",
+        "cited_page_number": 137,
+        "auditor_rationale": "Scenario analysis is referenced but not presented in the provided document pages. Only a brief mention exists without quantitative details on scenarios tested (e.g., IEA NZE, STEPS), assumptions, or financial outcomes. This is generic/boilerplate without substantive detail."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the year 2025, the climate-related risks were rated as 'High', consistent with the prior year. This reflects our continued efforts in managing the risk and ensuring that we are taking action to mitigate the impact of climate- related risks.",
+        "cited_page_number": 140,
+        "auditor_rationale": "Climate risks are integrated into enterprise risk management with a 'High' rating and 5x5 risk assessment framework. However, no quantitative risk metrics, heat maps, or detailed integration processes with financial planning are disclosed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are mitigating our exposure to carbon pricing by eliminating Scope 1 & 2 emissions from our upstream and midstream operations as far as possible via our end of routine flaring programme, replacing diesel with gas generators, upgrading compressors, using solar power, enhanced methane leak detection and repair. In 2025, we completed our EORF projects at a cost of $32 million reducing gas flare penalties by $4 million on our onshore operations.",
+        "cited_page_number": 138,
+        "auditor_rationale": "Operational mitigation actions are described with specific projects (EORF, solar, methane detection) and some cost data ($32m capex, $4m penalty savings). However, comprehensive adaptation measures for physical risks (flooding, extreme weather) are not quantitatively detailed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "For 2025, our gross Scope 1 and Scope 2 emissions across our onshore operated assets was 899.7 ktCO2e, 37% lower than our 2020 baseline figure of 1,423.0 ktCO2e... Offshore 4,792... Group 5,691",
+        "cited_page_number": 37,
+        "auditor_rationale": "Scope 1 and 2 emissions are reported for onshore (899.7 ktCO2e) and offshore (4,792 ktCO2e). However, the Group total stated as 5,691 ktCO2e does not equal the sum of onshore and offshore (899.7 + 4,792 = 5,691.7, close but inconsistent with baseline presentation). Scope 3 is reported for 6 categories but not fully quantified. Internal numeric inconsistency detected (Type_B). Entity-specific but incomplete due to inconsistency and partial Scope 3."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Carbon emissions intensity for our offshore assets was 51.8 kgCO2/boe in FY 2025... The carbon emissions intensity recorded on Seplat's onshore operations for 2025 was 24.3 kg CO2/boe",
+        "cited_page_number": 37,
+        "auditor_rationale": "SASB extractive metrics include carbon intensity (24.3 kg/boe onshore, 51.8 kg/boe offshore), flaring data, and production volumes. However, not all SASB EM-EP metrics are disclosed (e.g., water management, spills volume, biodiversity impacts quantitatively). Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore: End of routine flares (EORF) by 2026, 70% Scope 1 emissions reduction from our 2020 baseline... 37% reduction achieved in 2025 compared to base year (2020)",
+        "cited_page_number": 109,
+        "auditor_rationale": "Decarbonisation targets are stated for onshore (70% Scope 1 reduction by 2026, EORF by 2026) with progress reported (37% achieved). However, no Group-level net-zero target or offshore-specific targets are disclosed. Entity-specific but incomplete for comprehensive decarbonisation pathway."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore: 40-50% reduction from 2020 baseline in methane emissions by 2026... We have achieved 10% reduction from our baseline of 2020. Although higher than 2024 influenced by increased gas production in 2025... Offshore 319... Group 589",
+        "cited_page_number": 109,
+        "auditor_rationale": "Methane emissions are reported (270 tCO2e onshore, 319 offshore, 589 Group) with a reduction target (40-50% by 2026). However, detailed MRV methodology, leak detection protocols, and environmental tracking systems are not quantitatively described. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Onshore flare reduction 37%... Completed flares out projects at Oben, Sapele and Ohaji sites in onshore business... In the period, across our Group operations, we recorded nine Tier-1 Loss of Primary Containment (LOPC) incidents, of which two were fire incidents, five gas releases and two oil spills.",
+        "cited_page_number": 37,
+        "auditor_rationale": "Flaring reduction (37% onshore) and EORF project completion are reported. Spills are mentioned (2 oil spills Tier-1, 3 Tier-2) but volumes and remediation costs are not disclosed. Flaring commercialisation (LPG, CNG) is described qualitatively. Entity-specific but incomplete for investor-grade spill data."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No explicit disclosure of IAS 36 impairment testing assumptions incorporating climate scenarios or IAS 37 provisions for decommissioning/environmental liabilities linked to climate risks is found in the provided pages. Omitted."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2024, we conducted a materiality assessment, and this proactive approach ensured that necessary adjustments to our disclosure process, including criteria, methods and actions in response to new information and changing circumstances, are duly accounted for... This exercise formed the bedrock of our assessment in 2025 as we revalidated our assessment for our onshore business and carried out a materiality assessment for the offshore business.",
+        "cited_page_number": 136,
+        "auditor_rationale": "Materiality assessment is mentioned with revalidation for onshore and new assessment for offshore. However, no explicit discussion of sustainability reporting boundary alignment with financial reporting (e.g., JV equity vs. operational control, PSC exclusions) is provided. Generic/boilerplate."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, we completed a full integration of our enterprise risk management, reflecting the new scale of the organisation, upgrading our risk framework to reflect this work",
+        "cited_page_number": 46,
+        "auditor_rationale": "Internal control integration is mentioned with ERM framework upgrade. However, no explicit discussion of ISSA 5000 readiness, assurance scope, or preparation for external sustainability assurance is provided. Generic/boilerplate."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(f) requires disclosure of an exact Internal Carbon Price in USD/tCO2e. The document does not state a specific internal carbon price. Trap triggered: metric absent."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(g) requires disclosure of an exact percentage of Executive Remuneration tied to climate KPIs. While page 113 states '30% of the KPIs on our corporate scorecard were dedicated to sustainability targets' and '5% component was explicitly tied to the completion of Seplat's EORF programme', this refers to the scorecard weighting, not the exact percentage of total executive remuneration linked to climate. The specific percentage of executive pay tied to climate KPIs is not stated. Trap triggered: metric absent."
+      }
+    ]
+  },
+  "repaired_from_markdown_fence": true
+}

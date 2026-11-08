@@ -1,0 +1,170 @@
+{
+  "model": "openai/gpt-4o",
+  "slug": "gpt-4o",
+  "track": "B_pack",
+  "entity_id": "Seplat",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 20604,
+  "completion_tokens": 1725,
+  "usd": 0.06876,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company\u2019s sustainability and climate strategy...",
+        "cited_page_number": 112,
+        "auditor_rationale": "The document provides a general statement about board oversight but lacks specific details on how the board engages with climate-related issues."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy\u2019s sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC).",
+        "cited_page_number": 112,
+        "auditor_rationale": "The document specifies the management roles and committees involved in sustainability, but lacks detailed descriptions of their specific actions or outcomes."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We recognise that as an energy company operating in the Niger Delta, our business is exposed to significant risks from climate change.",
+        "cited_page_number": 139,
+        "auditor_rationale": "The document identifies climate risks but does not provide a comprehensive analysis of opportunities or detailed mitigation strategies."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Seplat\u2019s New Energy and Midstream Gas business is emblematic of our proactive approach to seizing climate-related opportunities.",
+        "cited_page_number": 142,
+        "auditor_rationale": "The document discusses business model impacts and strategic initiatives but lacks detailed quantitative data."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are in the process of developing a more comprehensive physical climate risk management plan...",
+        "cited_page_number": 142,
+        "auditor_rationale": "The document mentions scenario planning but does not provide specific scenarios or outcomes."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025 we completed a full integration of our enterprise risk management, reflecting the new scale of the organisation...",
+        "cited_page_number": 48,
+        "auditor_rationale": "The document provides detailed information on the integration of ERM with specific processes and oversight mechanisms."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Reducing the carbon intensity of our operations by eliminating routine flaring...",
+        "cited_page_number": 139,
+        "auditor_rationale": "The document outlines operational mitigation strategies but lacks comprehensive quantitative data."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, our gross Scope 1 and Scope 2 emissions across our onshore operated assets was 899.7 ktCO2e...",
+        "cited_page_number": 37,
+        "auditor_rationale": "The document provides detailed quantitative data on Scope 1 and 2 emissions."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not provide an exact Internal Carbon Price in USD/tCO2e."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We have created ambitious new targets for Scopes 1 and 2...",
+        "cited_page_number": 108,
+        "auditor_rationale": "The document mentions targets but lacks detailed quantitative pathways or timelines."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Completed fugitive emissions identification in Western Assets, to NUPRC requirements...",
+        "cited_page_number": 25,
+        "auditor_rationale": "The document provides specific actions taken but lacks comprehensive quantitative data."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Completed flares out projects at Oben, Sapele and Ohaji sites in onshore business.",
+        "cited_page_number": 25,
+        "auditor_rationale": "The document provides detailed quantitative data on flaring reduction."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our strategy, built on playing a leading role in Nigeria\u2019s energy transition...",
+        "cited_page_number": 140,
+        "auditor_rationale": "The document provides a general statement but lacks specific financial connectivity details."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We use a combination of controls, processes and procedures to support the oversight of sustainability...",
+        "cited_page_number": 138,
+        "auditor_rationale": "The document provides a general statement but lacks specific boundary alignment details."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are committed to disclosing criteria, methodologies and impacts of sustainability-related risks...",
+        "cited_page_number": 140,
+        "auditor_rationale": "The document provides a general statement but lacks specific readiness details."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not provide an exact Internal Carbon Price in USD/tCO2e."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs."
+      }
+    ]
+  }
+}

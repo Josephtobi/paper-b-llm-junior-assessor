@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Seplat",
+  "version": "perturbed",
+  "run": 3,
+  "prompt_tokens": 367588,
+  "completion_tokens": 10685,
+  "usd": 0.024805383,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Seplat Energy is ultimately accountable for overseeing the Company\u2019s sustainability and climate strategy, ensuring that these considerations are fully integrated into our overall risk management and financial decision-making frameworks in line with IFRS S1 and IFRS S2 requirements.",
+        "cited_page_number": 112,
+        "auditor_rationale": "Board accountability, dedicated committees, quarterly meetings, and explicit IFRS S1/S2 alignment are disclosed with entity-specific governance detail."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The day-to-day execution of Seplat Energy\u2019s sustainability strategy is led by the CEO and supported by the SLT through a dedicated Sustainability Management Committee (SMC).",
+        "cited_page_number": 112,
+        "auditor_rationale": "Management roles, SMC composition, monthly meeting cadence, and reporting lines to SLT and Board are clearly described."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The physical and transition risks we have identified, our assessment of their impacts on our Company and the actions we are taking to mitigate these risks, are summarised in the Climate Risk table below.",
+        "cited_page_number": 139,
+        "auditor_rationale": "Detailed physical and transition climate risk table with timeframes, impacts, and mitigation actions; includes quantitative scenario impacts elsewhere."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We are part of an energy value chain that starts at the well and ends with collecting payment from the customer, as Nigeria\u2019s natural fuels are converted into products such as petrochemicals or into electricity for distribution and consumption.",
+        "cited_page_number": 20,
+        "auditor_rationale": "Value-chain and business-model description is entity-specific but climate-related value-chain impacts are not fully quantified or integrated."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We conducted our annual scenario analysis for the 2025 financial year to assess shifts in the macroeconomic outlook, technology developments, policy and legal implications.",
+        "cited_page_number": 148,
+        "auditor_rationale": "Uses IEA NZE, CPS, and STEPS scenarios with quantitative oil price paths, NPV15 resilience, and portfolio impact percentages."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Seplat has integrated ESG and sustainability matters into our Enterprise Risk Management (ERM) framework and register, following guidance from the Risk Committee.",
+        "cited_page_number": 135,
+        "auditor_rationale": "Climate and sustainability risks are integrated into ERM, principal risks, risk universe, and quarterly Board Risk & HSSE Committee reviews."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, we completed our EORF projects at a cost of $32 million reducing gas flare penalties by $4 million on our onshore operations.",
+        "cited_page_number": 140,
+        "auditor_rationale": "Operational mitigation and adaptation actions are quantified, including EORF costs, penalty savings, planned GHG reduction spend, and LDAR programme."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Scope 1, 2 and 3 data are disclosed, but the planted footnote reveals a material JV boundary exclusion of 65% equity production, undermining completeness and alignment with the stated equity method."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "Onshore emissions intensity 243.0 kg/CO2 per boe",
+        "cited_page_number": 11,
+        "auditor_rationale": "SASB extractive metrics are broadly present, but a clear internal numeric contradiction exists: onshore emissions intensity is reported as 243.0 kg/CO2 per boe on page 11 versus 24.3 kg/CO2 per boe elsewhere."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Decarbonisation targets are disclosed, but the net-zero boundary excludes non-operated JV assets representing 65% of equity production, making the target perimeter incomplete."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In 2025, Seplat onshore assets continued its campaign towards full-scale compliance to NUPRC guidelines on methane emissions by continuing the LDAR programme in line with regulatory requirements.",
+        "cited_page_number": 116,
+        "auditor_rationale": "Methane MRV is detailed with LDAR, OGI consultants, NUPRC witnessing, Fluenta meters, and quantitative methane emissions data."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "we recorded nine Tier-1 Loss of Primary Containment (LOPC) incidents, of which two were fire incidents, five gas releases and two oil spills. Additionally, we recorded four Tier-2 LOPC incidents",
+        "cited_page_number": 37,
+        "auditor_rationale": "Flaring and spill metrics are disclosed, but LOPC incident counts contradict page 122, which reports 12 recordable LOPC events (eight Tier 1 and four Tier 2)."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the measurement of asset retirement obligations (AROs), management incorporates sustainability-related considerations including costs, such as those associated with decommissioning and restoring sites to meet environmental standards.",
+        "cited_page_number": 311,
+        "auditor_rationale": "Climate considerations are linked to IAS 37 provisions and IAS 36 impairment, but the connectivity is largely qualitative and not fully quantified in the sustainability section."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the Group's \"100% Corporate Net-Zero\" boundary used in this report.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Boundary description is provided, but the planted footnote confirms a material exclusion of 65% equity production from the net-zero boundary, creating misalignment with the stated equity approach."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The sustainability-related financial disclosures of Seplat Energy have been prepared in accordance with IFRS Sustainability Disclosure Standards as issued by the ISSB, in line with the adoption roadmap issued by the Financial Reporting Council of Nigeria.",
+        "cited_page_number": 110,
+        "auditor_rationale": "Compliance with IFRS S1/S2 is stated, but there is no substantive ISSA 5000 readiness discussion or sustainability-specific internal control over sustainability reporting detail."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact internal carbon price in USD/tCO2e is disclosed. The document only states it is working towards incorporating carbon pricing and plans to factor it into future scenario analyses."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact percentage of executive remuneration tied to climate KPIs is disclosed. The document provides percentage of corporate scorecard KPIs dedicated to ESG (30%) and an EORF component (5%), but not the remuneration linkage percentage required by IFRS S2 para 29(g)."
+      }
+    ]
+  }
+}

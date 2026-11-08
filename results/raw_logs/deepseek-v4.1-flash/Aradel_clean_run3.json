@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Aradel",
+  "version": "clean",
+  "run": 3,
+  "prompt_tokens": 195496,
+  "completion_tokens": 23340,
+  "usd": 0.023204075999999997,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "oversight of climate-related and other environmental risks",
+        "cited_page_number": 75,
+        "auditor_rationale": "Board-level Sustainability Committee is established and charged with oversight of climate-related and other environmental risks, but the disclosure does not provide climate-specific board KPIs, competence mapping, or evidence of regular climate performance review."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Adegbite Falade",
+        "cited_page_number": 75,
+        "auditor_rationale": "Management involvement is limited to CEO/CFO membership on the Sustainability Committee and the CEO sustainability address; there is no designated climate management role, accountability mechanism, or climate-linked management performance metric."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Aradel is investing in multiple projects to commercialise and monetise associated gas that would otherwise have been flared, thereby eliminating routine gas flaring from all of our production hubs.",
+        "cited_page_number": 23,
+        "auditor_rationale": "The report identifies a climate-related opportunity in gas monetisation and flaring reduction and acknowledges energy transition pressures as a risk, but it does not provide structured climate risk/opportunity categories, time horizons, financial effects, or quantification."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Progress towards eliminating routine flaring",
+        "cited_page_number": 32,
+        "auditor_rationale": "The business model and value chain are described in some entity-specific detail, and flaring reduction is linked to natural capital outcomes, but the climate impact on the business model and value-chain economics is not quantified or fully assessed."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis is disclosed; there are no qualitative or quantitative scenarios, assumptions, time horizons, or resilience conclusions under IFRS S2."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Financial, Operational, Regulatory and Compliance, Environmental, Social and Governance, Strategic, and Technology/Cybersecurity",
+        "cited_page_number": 43,
+        "auditor_rationale": "The ERM framework includes an Environmental, Social and Governance risk category, but climate risk is not separately identified, assessed, ranked, or integrated into the principal risk disclosures with climate-specific indicators."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our gas monetisation strategy, which delivered a 59% increase in average gas production during the year, is also a direct contribution to reducing routine flaring and increasing the productive utilisation of associated gas resources.",
+        "cited_page_number": 27,
+        "auditor_rationale": "Entity-specific operational mitigation is described through gas monetisation, flaring reduction, and associated gas utilisation, but adaptation measures and quantified emissions reductions are not provided."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No Scope 1, Scope 2, or Scope 3 GHG inventory is disclosed. The report provides gas volumes and flaring percentages but no absolute GHG emissions, methodology, consolidation approach, or boundaries required by IFRS S2."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Zero work-related fatalities; zero hydrocarbon spills to land or water",
+        "cited_page_number": 32,
+        "auditor_rationale": "Several entity-specific extractive metrics are provided, including fatalities, spills, safety, production, reserves, and flaring, but the set is incomplete against SASB extractive industry metrics and lacks GHG, air quality, water, biodiversity, security/human rights, and full community metrics."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "eliminating routine gas flaring from all of our production hubs. As the projects are completed through 2026 and 2027, Aradel will significantly reduce its operated emissions while also increasing its gas sales.",
+        "cited_page_number": 23,
+        "auditor_rationale": "A time-bound flaring-elimination commitment is a specific decarbonisation action, but the disclosure lacks a quantified GHG reduction target, base year, target boundary, metric, and progress reconciliation under IFRS S2."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The remaining volumes comprised 6.8% attributable to flaring and 1.2% utilised as fuel gas for operational facilities.",
+        "cited_page_number": 36,
+        "auditor_rationale": "Environmental tracking exists for flaring and fuel gas use, but there is no methane measurement, reporting, verification, source-level quantification, or methane intensity disclosure."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "The Company recorded $4.7 million as flare charges/fees for the year 2025.",
+        "cited_page_number": 76,
+        "auditor_rationale": "The report provides quantitative gas sales, flaring percentages, and spill data, but the same $4.7 million amount is described on pages 51 and 59 as regulatory fines while page 76 describes it as flare charges/fees, creating an internal classification inconsistency relevant to flaring/compliance metrics."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Group recognises a decommissioning liability when it has a present legal or constructive obligation as a result of past events",
+        "cited_page_number": 116,
+        "auditor_rationale": "IAS 37 decommissioning and environmental provisions and IAS 36 impairment assessments are disclosed, but there is no climate-related connectivity such as carbon price assumptions, climate-adjusted cash flows, or climate-linked asset retirement/provision sensitivity."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "the earnings impact was not consolidated",
+        "cited_page_number": 35,
+        "auditor_rationale": "The report discloses that the acquisition's earnings impact was not consolidated and that financial performance reflects only wholly owned assets, while reserves, production, and enlarged portfolio metrics use different equity boundaries. Sustainability boundary alignment is therefore unclear and inconsistent with the financial reporting boundary."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our inaugural Sustainability Report will be published in Q3, 2026 as a standalone disclosure, once we have completed the data governance, external assurance and reporting processes.",
+        "cited_page_number": 50,
+        "auditor_rationale": "The report signals future external assurance and data governance work for the sustainability report, but it does not demonstrate current ISSA 5000 readiness, sustainability control environment, evidence protocols, or assurance-ready climate disclosures."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact Internal Carbon Price in USD/tCO2e is disclosed anywhere in the document; IFRS S2 paragraph 29(f) metric is absent."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact percentage of Executive Remuneration tied to climate KPIs is disclosed anywhere in the document; IFRS S2 paragraph 29(g) metric is absent."
+      }
+    ]
+  }
+}

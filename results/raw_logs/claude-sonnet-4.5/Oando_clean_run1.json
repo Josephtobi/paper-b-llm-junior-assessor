@@ -1,0 +1,171 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "slug": "claude-sonnet-4.5",
+  "track": "B_pack",
+  "entity_id": "Oando",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 21631,
+  "completion_tokens": 3292,
+  "usd": 0.114273,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board remained steadfast in its commitment to strengthening Oando's governance framework... Through the Board's Risk, Environment, Social and Governance (RESG) Committee, we continued to enhance oversight of climate-related risks, human rights, business ethics, and other ESG matters",
+        "cited_page_number": 17,
+        "auditor_rationale": "Board oversight of climate matters is described through the RESG Committee structure and qualitative governance enhancements. However, no quantitative metrics on Board meeting frequency, specific climate agenda items, or director expertise are provided. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The completion of enterprise-wide Climate Change and Human Rights Risk Assessments, together with the development of an ESG Risk Register, represents an important milestone in integrating sustainability into our Enterprise Risk Management framework.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Management role is mentioned generically through risk assessments and ESG integration but lacks specific organizational structure, named roles, or accountability mechanisms for climate management. Boilerplate/generic."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Many of our upstream assets are located within the low-lying flood plains of the Niger Delta, where rising sea levels, changing rainfall patterns and more frequent extreme weather events present growing risks to infrastructure, operational continuity and surrounding communities. These realities have elevated climate change to one of the Group's most significant strategic risks",
+        "cited_page_number": 19,
+        "auditor_rationale": "Physical climate risks (flooding, extreme weather) are described with geographic specificity to Niger Delta operations. Transition risks are mentioned but not quantified. Opportunities are discussed qualitatively (gas commercialization, clean energy). Entity-specific but lacks quantitative impact assessment."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Following the successful expansion of our asset base, we prioritised stability, operational integrity and organisational alignment. Investments in asset reliability, production optimisation, engineering excellence and workforce integration have established a stronger platform for sustainable growth.",
+        "cited_page_number": 18,
+        "auditor_rationale": "Business model impacts are described through asset integration, production optimization, and value chain considerations. However, quantitative climate impact on business model components (revenue, costs, capital allocation) is not disclosed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis is disclosed in the document. While TCFD alignment is mentioned, no quantitative scenario modeling (e.g., IEA scenarios, temperature pathways, financial resilience testing) is presented. Metric is absent."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "These realities have elevated climate change to one of the Group's most significant strategic risks, alongside security, within our Enterprise Risk Management Framework.",
+        "cited_page_number": 19,
+        "auditor_rationale": "Climate risk is integrated into ERM framework and identified as a top strategic risk. However, specific risk assessment methodologies, risk ratings, or integration processes are not quantitatively described. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Recognising these evolving risks, we continued integrating climate considerations into asset planning, engineering design, infrastructure resilience, maintenance programmes and emergency preparedness, strengthening the resilience of our operations while improving our ability to adapt to evolving operating conditions.",
+        "cited_page_number": 19,
+        "auditor_rationale": "Operational adaptation measures are described (infrastructure resilience, engineering design, emergency preparedness) but lack quantitative detail on capital expenditure, specific projects, or measurable outcomes. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_B",
+        "verbatim_evidence_quote": "Scope 2 emissions were not included in the 2025 inventory; work is underway to establish the systems and processes required for their inclusion in future reporting.",
+        "cited_page_number": 43,
+        "auditor_rationale": "Scope 1 emissions are reported with operational detail. Scope 3 is mentioned but not quantified comprehensively. Scope 2 is explicitly excluded. The disclosure acknowledges data gaps but provides partial inventory only. Internal contradiction: claims GHG inventory but excludes Scope 2. Entity-specific but incomplete with boundary exclusion."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Daily working interest oil production increased, rising from 8,301 barrels per day in 2024 to 11,269 barrels per day in 2025. Natural Gas Liquids production averaged 1,231 barrels per day from 151 barrels per day in 2024. Gas production averaged 117 MMscf per day, up from 94 MMscf per day in 2024",
+        "cited_page_number": 18,
+        "auditor_rationale": "SASB extractive metrics are partially disclosed: production volumes (oil, gas, NGL), reserves (928 MMboe), gas utilization (92.2%), spill data. However, water metrics, air emissions (NOx, SOx, VOCs), and other SASB-required metrics are incomplete or absent. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We remain focused on advancing initiatives that are expected to reduce routine gas flaring over time, while continuing to pursue our long-term ambition of contributing to a lower-carbon future and progressing towards net zero greenhouse gas emissions by 2060.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Net-zero 2060 target is stated, aligned with Nigeria's national commitment. Interim targets include flare reduction (4.5% reduction target, NUPRC 2030 flare elimination). However, no quantitative interim GHG reduction targets, baselines, or pathways are disclosed. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Oando commenced the procurement, installation and commissioning of 41 ultrasonic flare gas meters across its facilities to improve flare measurement accuracy and regulatory compliance. By the end of the reporting period, 13 meters had been installed, with the remaining 28 progressing towards commissioning.",
+        "cited_page_number": 19,
+        "auditor_rationale": "Methane MRV initiatives are described: LDAR campaigns using OGI cameras, ultrasonic flare meter installation (13 of 41 installed). Gas utilization at 92.2% is quantified. However, methane-specific emissions quantification and comprehensive MRV system details are incomplete. Entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 3,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The JV recorded 152 spill incidents, representing a 61.8% reduction from 398 incidents in 2024. Spill severity also improved, with 144 minor incidents and seven Tier 2 incidents, and no major spills... Total estimated spill volume decreased by 70.5%, from 4,939.50 barrels in 2024 to 1,455.62 barrels in 2025. Of the 2025 spill volume, 1,198.18 barrels of free oil were recovered",
+        "cited_page_number": 49,
+        "auditor_rationale": "Comprehensive quantitative disclosure on spills: incident count (152), severity classification, volume (1,455.62 bbls), recovery rate (82%), year-on-year comparison, causative factors (88% third-party interference). Flaring commercialization discussed through gas utilization (92.2%). Investor-grade quantitative disclosure."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No disclosure of IAS 36 (impairment testing with climate assumptions) or IAS 37 (climate-related provisions) connectivity. Financial statements integration with climate risks is not discussed. Metric is absent."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "This Sustainability Report covers Oando Plc ('Oando' or 'the Group') and its subsidiaries, with operations primarily across West Africa, London, and Dubai. The report covers the Group's activities from 1 January 2025 to 31 December 2025",
+        "cited_page_number": 3,
+        "auditor_rationale": "Boundary is stated as Group-wide. However, JV reporting shows 'Working interest production' (32,482 boepd) vs 'total operated joint venture average' (80,545 boepd), suggesting equity-based consolidation that may exclude partner shares (~60% of operated production). Scope 2 explicitly excluded. Boundary alignment is entity-specific but incomplete with potential JV exclusions."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "While the 2025 Sustainability Report has been prepared in accordance with the Global Reporting Initiative (GRI) Standards, Oando is monitoring the FRCN/ISSB adoption timeline and aims to align its sustainability reporting with the applicable IFRS S1 and IFRS S2 requirements for public companies from 2028.",
+        "cited_page_number": 5,
+        "auditor_rationale": "ISSA 5000 readiness is not explicitly addressed. IFRS S1/S2 transition is acknowledged with 2028 target. Current reporting uses GRI and SASB. Internal controls and assurance processes are mentioned but not detailed. Entity-specific transition planning but incomplete on ISSA 5000 readiness."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(f) requires disclosure of internal carbon price in USD/tCO2e. No such metric is stated anywhere in the document. This is an absent metric trap - Type_D anomaly confirmed."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(g) requires disclosure of percentage of executive remuneration linked to climate KPIs. No such percentage is disclosed in the document. This is an absent metric trap - Type_D anomaly confirmed."
+      }
+    ]
+  },
+  "repaired_from_markdown_fence": true
+}

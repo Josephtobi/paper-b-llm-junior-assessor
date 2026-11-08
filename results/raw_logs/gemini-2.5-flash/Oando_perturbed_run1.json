@@ -1,0 +1,170 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "slug": "gemini-2.5-flash",
+  "track": "A_full",
+  "entity_id": "Oando",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 314521,
+  "completion_tokens": 3975,
+  "usd": 0.10429379999999999,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board remained steadfast in its commitment to strengthening Oando's governance framework, recognising that robust governance underpins resilient organisations. During the year, we enhanced Board effectiveness by increasing female representation from two to three directors, appointing three Independent Non-Executive Directors and achieving approximately 50% Board independence. Today, 75% of our principal Board Committees are chaired by Independent Directors, further reinforcing objective oversight and accountability",
+        "cited_page_number": 17,
+        "auditor_rationale": "The document provides a good overview of board oversight, including increased female representation and independent directors. However, it does not explicitly state the percentage of executive remuneration tied to climate-related performance, which would elevate the score to 3."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Executive Management is responsible for the day-to-day administration of the Group and the implementation of the strategic direction approved by the Board. It comprises the Group Chief Executive (GCE), Deputy Group Chief Executive (DGCE) and other members of the C-suite. Executive Management is accountable to the Board for the execution of the Group\u2019s strategy and corporate objectives. In carrying out its responsibilities, management considers the evolving macroeconomic, market, regulatory and socio-political environment in which the Group operates.",
+        "cited_page_number": 126,
+        "auditor_rationale": "The document describes the management's role in implementing strategy and considering the operating environment. It also mentions that 'Preparatory work is underway to further integrate sustainability performance into executive accountability as our ESG governance framework continues to mature.' This indicates entity-specific efforts but is not yet fully quantitative or investor-grade."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Climate change is increasingly influencing the environments in which we operate. Many of our upstream assets are located within the low-lying flood plains of the Niger Delta, where rising sea levels, changing rainfall patterns and more frequent extreme weather events present growing risks to infrastructure, operational continuity and surrounding communities. These realities have elevated climate change to one of the Group's most significant strategic risks, alongside security, within our Enterprise Risk Management Framework.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The document identifies climate change as a significant strategic risk and discusses physical and transition risks. It provides entity-specific details on the impact of climate change on its operations (e.g., Niger Delta flood plains) and mentions integrating climate considerations into asset planning. However, it lacks comprehensive quantitative disclosure on the financial impact of these risks and opportunities."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our strategy reflects this reality by leveraging the resilience of our core oil and gas business to responsibly finance the energy systems of tomorrow. Natural gas will remain central to this transition. As a cleaner transition fuel, it has the potential to expand energy access, support industrialisation and reduce the carbon intensity of Nigeria's energy mix. Accordingly, the Group continues to invest in gas infrastructure, gas commercialisation and flare reduction initiatives, supporting the NUPRC's objective of eliminating routine gas flaring by 2030 while contributing to Nigeria's commitment to achieving net-zero greenhouse gas emissions by 2060.",
+        "cited_page_number": 18,
+        "auditor_rationale": "The document describes how climate change influences its business model, including investments in gas infrastructure, flare reduction, and Oando Clean Energy. It provides entity-specific examples of how the business model is adapting to climate change, but a more detailed quantitative breakdown of capital allocation to these new ventures relative to traditional oil and gas would improve the score."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Climate Change Risk Assessment enhanced the Group\u2019s understanding of physical risks, including flooding, erosion, extreme weather and potential impacts on asset resilience and operational continuity. It also considered transition risks arising from regulatory developments, energy-transition dynamics, stakeholder expectations and potential future emissions-related obligations.",
+        "cited_page_number": 25,
+        "auditor_rationale": "The document states that a Climate Change Risk Assessment (CCRA) was conducted, evaluating exposure to physical and transition risks under relevant scenarios. This is entity-specific and a good step. However, the report does not provide details on the specific climate scenarios used (e.g., 1.5\u00b0C, 2\u00b0C, etc.) or the quantitative outcomes of these analyses, which would be expected for an investor-grade disclosure."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In FY2025, the Enterprise Risk Management and Control Function strengthened the integration of sustainability-related risks into the Group\u2019s broader ERM framework through the development of an ESG Risk Register. The register provides a structured basis for identifying, assessing and monitoring environmental, social and governance risks alongside existing enterprise risks.",
+        "cited_page_number": 25,
+        "auditor_rationale": "The document explicitly states the integration of sustainability-related risks into the ERM framework through an ESG Risk Register and mentions a Climate Change Risk Assessment and Human Rights Risk Assessment. This demonstrates entity-specific integration. However, the level of detail on how these risks are managed and monitored within the ERM framework could be more comprehensive and quantitative for a higher score."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Recognising these evolving risks, we continued integrating climate considerations into asset planning, engineering design, infrastructure resilience, maintenance programmes and emergency preparedness, strengthening the resilience of our operations while improving our ability to adapt to evolving operating conditions.",
+        "cited_page_number": 19,
+        "auditor_rationale": "The document describes entity-specific actions for operational mitigation and adaptation, such as integrating climate considerations into asset planning, strengthening infrastructure resilience, and implementing flood management measures. It also mentions investments in compressor reliability and gas gathering infrastructure. While these are good, more quantitative details on the effectiveness and scale of these measures would improve the score."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "In 2025, Oando JV recorded Gross Scope 1 and Scope 3 emissions of 3,494.88 ktCO2e, comprising 3,488.84 ktCO2e of Scope 1 emissions and 6.04 ktCO2e of Scope 3 emissions. Compared with 2024, Gross Scope 1 and Scope 3 emissions increased by 1.23%, while Scope 3 emissions decreased by 30.41%. Flared gas emissions decreased by 6.44%, from 798.74 ktCO2e in 2024 to 747.30 ktCO2e in 2025. This was accompanied by a 3.91% reduction in gas flaring GHG intensity, from 21.98 to 21.12 kgCO2e/boe.",
+        "cited_page_number": 42,
+        "auditor_rationale": "The document provides quantitative Scope 1 and 3 GHG emissions data in ktCO2e and kgCO2e/boe, including year-on-year changes. However, a planted anomaly was detected: the footnote on SR Page 17 states that 'Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the '100% Corporate Net-Zero' reporting boundary.' This exclusion significantly impacts the completeness of the reported GHG inventory, as it does not represent the full operational control or equity share of the entity, thus preventing a score of 3."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We have reported available key performance metrics and information identified as material to our business under the Sustainability Accounting Standards Board (SASB) Standard for Oil and Gas: Exploration and Production.",
+        "cited_page_number": 3,
+        "auditor_rationale": "The document explicitly states adherence to SASB standards for Oil and Gas: Exploration and Production and provides some relevant metrics such as LTI-free hours, LTIF, fatalities, and oil spill recovery rate. However, it does not provide a comprehensive list of all SASB metrics for the industry, nor does it include an exact Internal Carbon Price, which would be required for a score of 3."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board also reaffirmed its commitment to supporting Nigeria's Energy Transition Plan. We remain focused on advancing initiatives that are expected to reduce routine gas flaring over time, while continuing to pursue our long-term ambition of contributing to a lower-carbon future and progressing towards net zero greenhouse gas emissions by 2060.",
+        "cited_page_number": 17,
+        "auditor_rationale": "The document states a long-term ambition for net-zero GHG emissions by 2060 and a target to eliminate routine gas flaring by 2030. It also mentions a 15% reduction of Net Carbon Intensity of energy products sold by 2030 and a 25% reduction of Net GHG lifecycle emissions by 2030. While these are quantitative targets, the lack of a clear baseline year for the 2060 net-zero target and the absence of interim, short-term targets with detailed pathways prevent a score of 3."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Expanded Leak Detection and Repair (LDAR) campaigns, particularly at critical facilities, strengthened detection and mitigation of methane and other volatile organic compound (VOC) emissions, supporting both operational efficiency and our climate commitments.",
+        "cited_page_number": 82,
+        "auditor_rationale": "The document mentions expanded Leak Detection and Repair (LDAR) campaigns and the procurement and installation of 41 ultrasonic flare gas meters to improve flare measurement accuracy. This demonstrates entity-specific efforts in methane MRV and environmental tracking. However, it lacks quantitative data on methane emissions specifically, the effectiveness of LDAR in reducing methane, or the percentage of assets covered by these systems, which would be needed for a score of 3."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Flared gas emissions decreased by 6.44%, from 798.74 ktCO2e in 2024 to 747.30 ktCO2e in 2025. This was accompanied by a 3.91% reduction in gas flaring GHG intensity, from 21.98 to 21.12 kgCO2e/boe.",
+        "cited_page_number": 42,
+        "auditor_rationale": "The document provides quantitative data on flared gas emissions and intensity, showing a decrease. It also mentions investments in compressor reliability and gas gathering infrastructure to increase gas utilization to 92.2%. For spills, it reports a 61.8% reduction in spill incidents and a 70.5% reduction in estimated spill volumes. This is entity-specific and quantitative. However, more detail on flare commercialization projects (e.g., volumes commercialized, revenue generated) and the root causes of remaining spills would enhance the score."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Group records a liability for the fair value of legal obligations associated with the decommissioning of oil and gas and any other relevant assets in the period in which they are incurred, normally when the asset is purchased or developed. On recognition of the liability there is a corresponding increase in the carrying amount of the related asset known as the decommissioning cost, which is depleted on a unit-of-production basis over the life of the reserves for oil and gas assets.",
+        "cited_page_number": 44,
+        "auditor_rationale": "The document describes the accounting for decommissioning liabilities in accordance with IAS 37 and IAS 36 (implicitly through impairment testing of assets). It provides details on the estimation of these provisions, including discount rates and inflation rates. However, the disclosure does not explicitly link the financial impact of climate-related risks (e.g., stranded assets) to IAS 36 impairment calculations in a comprehensive, quantitative manner, which would be expected for a score of 3."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "The organisation\u2019s sustainability reporting boundary covers Oando PLC, Oando Energy Resources (OER), and its subsidiaries across exploration and production, oil and gas services, trading, logistics, energy solutions, power generation, and other related business activities. The reporting boundary aligns with the entities included in the consolidated financial statements and provides the basis for identifying, assessing, and disclosing material environmental, social and governance (ESG) aspects across the Group.",
+        "cited_page_number": 69,
+        "auditor_rationale": "The document states that the sustainability reporting boundary aligns with the consolidated financial statements. However, a planted anomaly was detected: the footnote on SR Page 17 explicitly states that 'Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the '100% Corporate Net-Zero' reporting boundary.' This indicates a significant misalignment between the sustainability reporting boundary for GHG emissions and the financial consolidation boundary, preventing a score of 3."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "While we do not publish a standalone TCFD report, our climate-related financial disclosures leverage TCFD-aligned principles integrated within our GRI and SASB reporting, serving as a structured baseline for our upcoming transition to IFRS S2 Climate-related Disclosures in compliance with the Financial Reporting Council of Nigeria's adoption timeline.",
+        "cited_page_number": 3,
+        "auditor_rationale": "The document explicitly states that it is preparing for the transition to IFRS S2 Climate-related Disclosures and leverages TCFD-aligned principles. It also mentions monitoring the FRCN/ISSB adoption timeline and aiming to align its sustainability reporting with IFRS S1 and S2 from 2028. This demonstrates readiness and a clear plan, but the actual implementation and external assurance under ISSA 5000 are not yet fully in place, limiting the score to 2."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact Internal Carbon Price in USD/tCO2e as required by IFRS S2 para 29(f)."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs as required by IFRS S2 para 29(g)."
+      }
+    ]
+  }
+}

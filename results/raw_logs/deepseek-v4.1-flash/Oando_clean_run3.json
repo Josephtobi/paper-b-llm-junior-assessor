@@ -1,0 +1,12 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Oando",
+  "version": "clean",
+  "run": 3,
+  "prompt_tokens": 261087,
+  "completion_tokens": 131072,
+  "usd": 0.08763326099999999,
+  "response": {}
+}

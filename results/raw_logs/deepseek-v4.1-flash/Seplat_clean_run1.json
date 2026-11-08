@@ -1,0 +1,170 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash",
+  "slug": "deepseek-v4.1-flash",
+  "track": "A_full",
+  "entity_id": "Seplat",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 369034,
+  "completion_tokens": 18956,
+  "usd": 0.029568786,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No Board or committee oversight of climate-related risks and opportunities is disclosed in the provided excerpt; the governance section is not included."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Looking at our environmental performance",
+        "cited_page_number": 17,
+        "auditor_rationale": "The CEO Q&A provides a high-level environmental performance update, but there is no explicit management role, accountability, or committee responsibility for climate."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Key trend: Climate security",
+        "cited_page_number": 19,
+        "auditor_rationale": "The report identifies flaring regulation as a climate security trend and gas as a transition opportunity, but does not provide a quantified climate risk and opportunity assessment."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Gas as a \ntransition fuel",
+        "cited_page_number": 9,
+        "auditor_rationale": "The report describes gas as a transition fuel and positions the business in the energy value chain, but does not quantify climate-related impacts on the business model or value chain."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis is disclosed in the provided excerpt; only a glossary reference to STEPS appears."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate risk integration into enterprise risk management is disclosed in the provided excerpt."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "commissioned several projects including the SIGP",
+        "cited_page_number": 19,
+        "auditor_rationale": "Specific mitigation projects such as SIGP and LPG are disclosed alongside onshore emissions reduction, but no adaptation measures are described."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "24.3 kgCO2/boe",
+        "cited_page_number": 17,
+        "auditor_rationale": "The report provides onshore Scope 1 emissions intensity and a reduction figure, but no absolute Scope 1, Scope 2, or Scope 3 inventory and no group-wide boundary."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "131,506",
+        "cited_page_number": 4,
+        "auditor_rationale": "Extractive metrics such as production and reserves are provided, but the disclosure is not a complete SASB extractive metric set."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Zero routine \nflares \nby 2026 for Onshore business",
+        "cited_page_number": 9,
+        "auditor_rationale": "A specific routine flaring target is disclosed, but there is no group-wide GHG reduction or net-zero decarbonisation target."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No methane measurement, reporting, verification, or environmental tracking disclosure is provided; only glossary terms such as LDAR and FVAR appear."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Oben LPG",
+        "cited_page_number": 19,
+        "auditor_rationale": "Specific flaring commercialisation projects and onshore routine flaring elimination are disclosed, but no spills data are provided."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate-related IAS 36 impairment or IAS 37 provision connectivity is disclosed in the provided excerpt."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No sustainability reporting boundary or alignment to the financial consolidation boundary is disclosed in the provided excerpt."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 0,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No ICSR or ISSA 5000 readiness disclosure is provided in the excerpt."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact internal carbon price in USD/tCO2e is disclosed; IFRS S2 para 29(f) is absent."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No exact percentage of executive remuneration tied to climate KPIs is disclosed; IFRS S2 para 29(g) is absent."
+      }
+    ]
+  }
+}

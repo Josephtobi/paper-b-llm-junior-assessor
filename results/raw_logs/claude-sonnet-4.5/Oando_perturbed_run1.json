@@ -1,0 +1,171 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "slug": "claude-sonnet-4.5",
+  "track": "B_pack",
+  "entity_id": "Oando",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 21673,
+  "completion_tokens": 3460,
+  "usd": 0.11691900000000001,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board remained steadfast in its commitment to strengthening Oando's governance framework... we enhanced Board effectiveness by increasing female representation from two to three directors, appointing three Independent Non-Executive Directors and achieving approximately 50% Board independence. Today, 75% of our principal Board Committees are chaired by Independent Directors",
+        "cited_page_number": 17,
+        "auditor_rationale": "Board oversight is described with entity-specific governance improvements (female representation, independence metrics, committee structure). However, no quantitative climate-specific KPIs or climate risk escalation protocols are disclosed. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Through the Board's Risk, Environment, Social and Governance (RESG) Committee, we continued to enhance oversight of climate-related risks, human rights, business ethics, and other ESG matters... The completion of enterprise-wide Climate Change and Human Rights Risk Assessments, together with the development of an ESG Risk Register, represents an important milestone",
+        "cited_page_number": 17,
+        "auditor_rationale": "Management role is described through RESG Committee oversight and completion of climate risk assessments. However, no specific management accountability structure, executive roles, or climate-related decision-making processes are quantified. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Climate change is increasingly influencing the environments in which we operate. Many of our upstream assets are located within the low-lying flood plains of the Niger Delta, where rising sea levels, changing rainfall patterns and more frequent extreme weather events present growing risks to infrastructure, operational continuity and surrounding communities. These realities have elevated climate change to one of the Group's most significant strategic risks",
+        "cited_page_number": 19,
+        "auditor_rationale": "Physical climate risks (flooding, sea level rise) are described qualitatively with geographic specificity (Niger Delta). Transition risks and opportunities are mentioned but not quantified. No financial impact assessment or time horizons provided. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Following the milestone integration of the NAOC Joint Venture assets\u2014including core onshore blocks like OMLs 60, 61, 62, and 63\u2014Oando has moved aggressively from acquisition into operational execution. The company successfully delivered a 32% year-on-year increase in total upstream production, averaging 32,482 barrels of oil equivalent per day (boepd) net to Oando",
+        "cited_page_number": 22,
+        "auditor_rationale": "Business model is described with specific asset details (OMLs 60-63) and production metrics. Value chain climate impacts are mentioned (gas utilisation, flaring) but not systematically mapped across upstream/midstream/downstream with quantified emissions by segment. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis is disclosed. The document mentions climate risks and transition planning but does not present quantitative scenario modeling (e.g., IEA NZE, 1.5\u00b0C, 2\u00b0C pathways) with financial implications. IFRS S2 para 22 requires scenario analysis; this is absent. Score 0."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The completion of enterprise-wide Climate Change and Human Rights Risk Assessments, together with the development of an ESG Risk Register, represents an important milestone in integrating sustainability into our Enterprise Risk Management framework",
+        "cited_page_number": 17,
+        "auditor_rationale": "Climate risks are integrated into ERM through ESG Risk Register and climate risk assessments. However, no quantitative risk ratings, probability/impact matrices, or specific climate risk mitigation controls are disclosed. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "To insulate its assets from these physical shocks, Oando is deploying targeted capital toward resilient engineering solutions, which include raising critical field equipment platforms, fortifying physical drainage systems, and embedding advanced predictive hydrological modeling into core field planning",
+        "cited_page_number": 22,
+        "auditor_rationale": "Operational adaptation measures are described (raising platforms, drainage, hydrological modeling). Mitigation measures include gas utilisation (92.2%) and flare reduction. However, no capex allocation, timelines, or quantified resilience metrics are provided. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_A",
+        "verbatim_evidence_quote": "full qualitative alignment with PIA 2021 zero-routine-flaring mandates and the Paris Agreement across IT and operations (no discrete ktCO2e inventory disclosed here)",
+        "cited_page_number": 31,
+        "auditor_rationale": "Scope 1 and Scope 3 emissions are mentioned but no quantitative GHG inventory (in tCO2e) is disclosed for 2025. The document replaces quantitative metrics with greenwashing boilerplate ('full qualitative alignment'). Scope 2 explicitly excluded. This is Type_A: quantitative metrics replaced by boilerplate. Score 1."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Working interest production increased by 32% to 32,482 barrels of oil equivalent per day... Gas production averaged 117 MMscf per day... gas utilisation to 92.2%... Total estimated spill volume decreased by 70.5%, from 4,939.50 barrels in 2024 to 1,455.62 barrels in 2025",
+        "cited_page_number": 19,
+        "auditor_rationale": "SASB extractive metrics are partially disclosed: production (boepd), gas utilisation (%), spill volumes (barrels). However, no water withdrawal/discharge, freshwater %, or air emissions (NOx, SOx, VOC) are quantified. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "we remain focused on advancing initiatives that are expected to reduce routine gas flaring over time, while continuing to pursue our long-term ambition of contributing to a lower-carbon future and progressing towards net zero greenhouse gas emissions by 2060",
+        "cited_page_number": 17,
+        "auditor_rationale": "A net-zero ambition by 2060 is stated but no interim targets (e.g., 2030, 2040), baseline year, or quantified reduction pathways are disclosed. This is generic aspiration without investor-grade detail. Score 1: boilerplate/generic."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Oando commenced the procurement, installation and commissioning of 41 ultrasonic flare gas meters across its facilities to improve flare measurement accuracy and regulatory compliance. By the end of the reporting period, 13 meters had been installed, with the remaining 28 progressing towards commissioning",
+        "cited_page_number": 19,
+        "auditor_rationale": "Methane MRV infrastructure is described (41 ultrasonic meters, 13 installed). LDAR campaigns using OGI are mentioned. However, no quantified methane emissions (tCH4 or tCO2e), methane intensity, or leak detection results are disclosed. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "gas utilisation to 92.2%, enabling greater volumes of associated gas to be captured for productive use rather than flared... Total estimated spill volume decreased by 70.5%, from 4,939.50 barrels in 2024 to 1,455.62 barrels in 2025. Of the 2025 spill volume, 1,198.18 barrels of free oil were recovered",
+        "cited_page_number": 19,
+        "auditor_rationale": "Gas utilisation (92.2%) and spill performance (152 incidents, 1,455.62 barrels, 82% recovery rate) are quantified. However, no flare volumes (MMscf or tCO2e), flare intensity, or gas commercialisation revenue are disclosed. Score 2: entity-specific but incomplete."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No disclosure of IAS 36 (impairment testing with climate assumptions) or IAS 37 (climate-related provisions, e.g., ARO, decommissioning) is present. Financial statements connectivity to climate risks is absent. Score 0."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the '100% Corporate Net-Zero' reporting boundary.",
+        "cited_page_number": 17,
+        "auditor_rationale": "A planted footnote explicitly states that 65% of equity production (non-operated JV assets) is excluded from the net-zero boundary. This is a material boundary exclusion (Type_C: JV/PSC boundary exclusion). The sustainability report does not transparently reconcile operated vs. equity boundaries. Score 1: boilerplate with critical omission."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Oando recognises the Financial Reporting Council of Nigeria (FRCN)'s role in advancing the adoption of the International Sustainability Standards Board (ISSB) standards in Nigeria. While the 2025 Sustainability Report has been prepared in accordance with the Global Reporting Initiative (GRI) Standards, Oando is monitoring the FRCN/ISSB adoption timeline and aims to align its sustainability reporting with the applicable IFRS S1 and IFRS S2 requirements for public companies from 2028",
+        "cited_page_number": 5,
+        "auditor_rationale": "IFRS S1/S2 readiness is acknowledged with a 2028 target. GRI Standards are applied. However, no gap analysis, ISSA 5000 assurance readiness, or detailed transition roadmap is disclosed. Score 2: entity-specific but incomplete."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(f) requires disclosure of an exact Internal Carbon Price (USD/tCO2e). No such figure is stated in the document. This is a Type_D trap: metric is absent. Score 0."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(g) requires disclosure of the exact percentage of executive remuneration tied to climate KPIs. No such percentage is stated in the document. This is a Type_D trap: metric is absent. Score 0."
+      }
+    ]
+  },
+  "repaired_from_markdown_fence": true
+}

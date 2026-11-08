@@ -1,0 +1,171 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "slug": "claude-sonnet-4.5",
+  "track": "B_pack",
+  "entity_id": "Aradel",
+  "version": "clean",
+  "run": 1,
+  "prompt_tokens": 17244,
+  "completion_tokens": 2937,
+  "usd": 0.095787,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board of Directors (the Board) has ultimate responsibility for overseeing the Group's risk management framework. The Board discharges this responsibility through the Corporate Responsibility and Risk Management Committee (CRRMC). The CRRMC meets at least quarterly to review the Company's principal risks, key risk indicators, mitigation actions, and residual risk exposures.",
+        "cited_page_number": 45,
+        "auditor_rationale": "Board oversight is described with entity-specific committee structure (CRRMC) and quarterly meeting frequency. However, no quantitative metrics on Board composition, climate expertise, or time allocation to climate matters are provided. Insufficient detail for investor-grade disclosure under IFRS S2."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Executive Management is responsible for the day-to-day management of risks across Aradel and its subsidiaries. The Managing Director continues to steer the annual enterprise-wide risk workshop to assess the short- and medium-term risk outlook.",
+        "cited_page_number": 45,
+        "auditor_rationale": "Management role in risk management is described, including MD-led risk workshops. However, no specific climate-related management responsibilities, organizational structure for climate oversight, or KPIs are disclosed. Incomplete for IFRS S2 requirements."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Sustainability remains a strategic imperative and a core enabler of the long-term resilience of our business.",
+        "cited_page_number": 20,
+        "auditor_rationale": "Generic boilerplate statement about sustainability. No specific identification of climate risks (physical or transition) or opportunities with time horizons, financial impacts, or strategic responses. Does not meet IFRS S2 disclosure requirements."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our integrated business model, spanning upstream production, gas processing, refining, and distribution, gives us multiple levers through which to create, realise and preserve value across different market conditions.",
+        "cited_page_number": 27,
+        "auditor_rationale": "Business model described generically. No specific analysis of climate impacts on value chain components, asset vulnerability, or adaptation strategies. Lacks quantitative assessment required for investor-grade disclosure."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No climate scenario analysis disclosed. IFRS S2 para 22 requires disclosure of scenario analysis including assumptions, time horizons, and resilience assessment. Completely absent from the document."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our risk categories provide a structured basis for identifying, assessing, and managing risks that could affect the Group's ability to achieve its objectives. The Group's ERM framework maintains six principal risk categories that represent the key risk exposures facing the business. These are: Financial, Operational, Regulatory and Compliance, Environmental, Social and Governance, Strategic, and Technology/Cybersecurity, collectively referred to as 'FOREST'.",
+        "cited_page_number": 45,
+        "auditor_rationale": "Entity-specific ERM framework (FOREST) described with ESG as one category. However, no specific integration of climate risks into ERM processes, no climate-specific risk metrics, and no quantitative risk assessment disclosed. Incomplete for IFRS S2."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Aligning with the country's decade of gas aspirations, Aradel is aggressively developing its substantial gas resource. Furthermore, Aradel is investing in multiple projects to commercialise and monetise associated gas that would otherwise have been flared, thereby eliminating routine gas flaring from all of our production hubs. As the projects are completed through 2026 and 2027, Aradel will significantly reduce its operated emissions while also increasing its gas sales.",
+        "cited_page_number": 23,
+        "auditor_rationale": "Entity-specific mitigation actions described (gas commercialization, flaring elimination projects). However, no quantitative targets, timelines, capital allocation, or expected emissions reductions provided. Incomplete for investor-grade disclosure."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No GHG inventory disclosed. IFRS S2 para 29(a) requires Scope 1, 2, and 3 emissions in absolute terms and intensity metrics. Completely absent despite upstream oil & gas operations where emissions are material."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Average gas production reached 51.4 mmscf/d \u2014 a 59% increase on the prior year \u2014 following the successful revamping and capacity enhancement of our Ogbele gas processing plant.",
+        "cited_page_number": 18,
+        "auditor_rationale": "Some production metrics disclosed (gas production, crude production) but no SASB-specific extractives metrics such as flaring intensity, methane emissions intensity, water management metrics, or spill volumes. Generic operational data only."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "In the year ahead, we will focus on growing reserves and production, with 2026 production guidance of 110,000 \u2013 140,000 boepd, increasing refinery utilisation toward 50%, and advancing our commitment to eliminating routine flaring.",
+        "cited_page_number": 20,
+        "auditor_rationale": "Generic commitment to 'eliminating routine flaring' mentioned but no quantitative decarbonization targets, baseline year, target year, or interim milestones disclosed. Does not meet IFRS S2 para 33 requirements for target disclosure."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No methane measurement, reporting, or verification (MRV) metrics disclosed. No environmental tracking data for methane emissions despite upstream operations. Critical omission for Nigerian upstream operator under ISSA 5000 expectations."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Zero work-related fatalities; zero hydrocarbon spills to land or water",
+        "cited_page_number": 37,
+        "auditor_rationale": "Entity-specific disclosure of zero spills achieved. Flaring commercialization projects mentioned but no quantitative flaring volumes, flaring intensity, or commercialization project economics disclosed. Incomplete for investor-grade assessment."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "No disclosure of climate-related impacts on asset impairment testing (IAS 36) or provisions (IAS 37). No discussion of climate assumptions in financial statement preparation. IFRS S2 para 42 connectivity requirement not met."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The adoption of IFRS S1 and S2 will help ensure that sustainability-related risks and opportunities are identified, managed, and disclosed with the same rigour as is applied to financial performance and capital allocation.",
+        "cited_page_number": 20,
+        "auditor_rationale": "Generic statement about IFRS S1/S2 adoption. No specific disclosure of sustainability reporting boundary, consolidation approach for JVs/PSCs (e.g., Renaissance 53.3% interest, ND Western), or alignment with financial reporting boundary. Incomplete boundary definition."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "A significant milestone during the year was the Company's decision to voluntarily adopt the IFRS S1 and S2 Sustainability Disclosure Standards. Our inaugural sustainability report will be published as a standalone document.",
+        "cited_page_number": 20,
+        "auditor_rationale": "Voluntary adoption of IFRS S1/S2 announced but inaugural report not yet published. No evidence of ISSA 5000 assurance readiness, no discussion of assurance scope, provider, or level. Statement of intent only, not investor-grade readiness disclosure."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(f) requires disclosure of internal carbon price in USD/tCO2e if used. No internal carbon price disclosed anywhere in the document. Metric is absent, not merely incomplete."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "IFRS S2 para 29(g) requires disclosure of percentage of executive remuneration linked to climate KPIs. While LTIP mentioned on page 39, no specific percentage or climate-KPI linkage disclosed. Metric is absent."
+      }
+    ]
+  },
+  "repaired_from_markdown_fence": true
+}

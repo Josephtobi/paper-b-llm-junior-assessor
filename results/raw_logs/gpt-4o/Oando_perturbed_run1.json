@@ -1,0 +1,170 @@
+{
+  "model": "openai/gpt-4o",
+  "slug": "gpt-4o",
+  "track": "B_pack",
+  "entity_id": "Oando",
+  "version": "perturbed",
+  "run": 1,
+  "prompt_tokens": 18284,
+  "completion_tokens": 1827,
+  "usd": 0.06398000000000001,
+  "response": {
+    "evaluations": [
+      {
+        "indicator_id": "GOV-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Board remained steadfast in its commitment to strengthening Oando's governance framework, recognising that robust governance underpins resilient organisations.",
+        "cited_page_number": 17,
+        "auditor_rationale": "The document provides entity-specific information about board oversight, including the composition and roles of the board and its committees, but lacks quantitative metrics."
+      },
+      {
+        "indicator_id": "GOV-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Risk, Environmental, Social and Governance (RESG) Committee provided oversight.",
+        "cited_page_number": 5,
+        "auditor_rationale": "Management roles in sustainability are described, but the information is more qualitative than quantitative."
+      },
+      {
+        "indicator_id": "STR-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Climate change is increasingly influencing the environments in which we operate.",
+        "cited_page_number": 37,
+        "auditor_rationale": "The document discusses climate risks and opportunities but lacks detailed quantitative analysis."
+      },
+      {
+        "indicator_id": "STR-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Our strategy reflects this reality by leveraging the resilience of our core oil and gas business to responsibly finance the energy systems of tomorrow.",
+        "cited_page_number": 35,
+        "auditor_rationale": "The business model and value-chain impact are discussed, but the information is not fully comprehensive or quantitative."
+      },
+      {
+        "indicator_id": "STR-3",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "We continued integrating climate considerations into asset planning, engineering design, infrastructure resilience, maintenance programmes and emergency preparedness.",
+        "cited_page_number": 37,
+        "auditor_rationale": "The document mentions climate scenario analysis but lacks detailed scenarios or quantitative data."
+      },
+      {
+        "indicator_id": "RM-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "These realities have elevated climate change to one of the Group's most significant strategic risks, alongside security, within our Enterprise Risk Management Framework.",
+        "cited_page_number": 37,
+        "auditor_rationale": "ERM integration is discussed with specific risks identified, but lacks detailed quantitative metrics."
+      },
+      {
+        "indicator_id": "RM-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Enhanced security measures and closer collaboration with host communities and government agencies continued to improve asset integrity.",
+        "cited_page_number": 37,
+        "auditor_rationale": "Operational mitigation and adaptation strategies are described, but the information is not fully quantitative."
+      },
+      {
+        "indicator_id": "MET-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Scope 2 emissions were not included in the 2025 inventory; work is underway to establish the systems and processes required for their inclusion in future reporting.",
+        "cited_page_number": 85,
+        "auditor_rationale": "Scope 1 and 3 emissions are discussed, but Scope 2 is omitted, and the data is not fully quantitative."
+      },
+      {
+        "indicator_id": "MET-2",
+        "assigned_score": 1,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_A",
+        "verbatim_evidence_quote": "The report covers the Group\u2019s activities from 1 January 2025 to 31 December 2025 and provides an overview of the progress made in implementing Oando\u2019s Sustainability Strategy.",
+        "cited_page_number": 3,
+        "auditor_rationale": "The document provides boilerplate information without specific SASB extractive metrics."
+      },
+      {
+        "indicator_id": "MET-3",
+        "assigned_score": 2,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_C",
+        "verbatim_evidence_quote": "Non-operated Joint Venture (JV) assets representing 65% of equity production were excluded from the '100% Corporate Net-Zero' reporting boundary.",
+        "cited_page_number": 17,
+        "auditor_rationale": "Decarbonisation targets are discussed, but significant exclusions are noted, affecting completeness."
+      },
+      {
+        "indicator_id": "NUP-1",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Fugitive Emissions Surveys: Carried Leak Detection and Repair (LDAR) campaigns at Brass Oil Terminal and Kwale Gas Plant using Optical Gas Imaging technique.",
+        "cited_page_number": 85,
+        "auditor_rationale": "Methane MRV and environmental tracking are described with specific actions, but lack full quantitative data."
+      },
+      {
+        "indicator_id": "NUP-2",
+        "assigned_score": 2,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "Reducing routine flaring remains fundamental to our decarbonisation strategy.",
+        "cited_page_number": 37,
+        "auditor_rationale": "Flaring commercialisation and spill management are discussed, but the data is not fully quantitative."
+      },
+      {
+        "indicator_id": "FIN-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The regulatory environment across Africa, and specifically within Nigeria, is shifting rapidly toward mandatory, institutionalised accountability.",
+        "cited_page_number": 43,
+        "auditor_rationale": "The document provides boilerplate information on connectivity without specific IAS 36 & IAS 37 metrics."
+      },
+      {
+        "indicator_id": "ASR-1",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The report covers the Group\u2019s activities from 1 January 2025 to 31 December 2025.",
+        "cited_page_number": 3,
+        "auditor_rationale": "Sustainability boundary alignment is mentioned but lacks detailed quantitative data."
+      },
+      {
+        "indicator_id": "ASR-2",
+        "assigned_score": 1,
+        "anomaly_detected": false,
+        "anomaly_type": "None",
+        "verbatim_evidence_quote": "The Sustainability Report was prepared in accordance with the Global Reporting Initiative (GRI) Standards.",
+        "cited_page_number": 3,
+        "auditor_rationale": "ICSR & ISSA 5000 readiness is mentioned in a generic manner without specific metrics."
+      }
+    ],
+    "type_d_traps": [
+      {
+        "trap_id": "ICP_29f",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact Internal Carbon Price in USD/tCO2e."
+      },
+      {
+        "trap_id": "REMUN_29g",
+        "assigned_score": 0,
+        "anomaly_detected": true,
+        "anomaly_type": "Type_D",
+        "verbatim_evidence_quote": "N/A",
+        "cited_page_number": null,
+        "auditor_rationale": "The document does not state an exact percentage of Executive Remuneration tied to climate KPIs."
+      }
+    ]
+  }
+}
