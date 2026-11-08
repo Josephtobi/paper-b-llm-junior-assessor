@@ -55,4 +55,10 @@ python scripts/04_run_openrouter_eval.py   # dry-run estimate
 
 ## Citation
 
-Please cite both Paper B (this study / this release) and the Zenodo Paper A benchmark above when using these scores or logs.
+If you use these materials, please cite:
+
+1. **This replication package (Paper B v1.3):**  
+   Davies, J. (2026). *AI as a Junior Assessor: Evaluating Large Language Models on IFRS S2 Climate Disclosures and Adversarial Error Detection in Nigerian Upstream Oil & Gas* (Replication package v1.3.0) [Computer software]. GitHub. https://github.com/Josephtobi/paper-b-llm-junior-assessor/releases/tag/v1.3.0
+
+2. **Paper A human benchmark (source of the ordinal scores):**  
+   Davies, J. (2026). *Ready for 2028? IFRS S1 and S2 Readiness of Nigeria's Listed and OTC Oil & Gas Public Interest Entities* (Version v1.1). Zenodo. https://doi.org/10.5281/zenodo.23984011
