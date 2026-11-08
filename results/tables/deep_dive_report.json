@@ -1,0 +1,350 @@
+{
+  "paper_version": "v1.3",
+  "kappa_mean_of_runs_vs_pooled": {
+    "claude-sonnet-4.5": {
+      "n_clean_runs_with_scores": 3,
+      "mean_of_run_kappa_w": 0.5256769374416433,
+      "pooled_kappa_w": 0.5930232558139534,
+      "n_pooled_pairs": 45
+    },
+    "deepseek-v4.1-flash": {
+      "n_clean_runs_with_scores": 7,
+      "mean_of_run_kappa_w": 0.5096329680004228,
+      "pooled_kappa_w": 0.5438455349959774,
+      "n_pooled_pairs": 105
+    },
+    "gemini-2.5-flash": {
+      "n_clean_runs_with_scores": 9,
+      "mean_of_run_kappa_w": 0.10314693750114541,
+      "pooled_kappa_w": 0.3514150943396226,
+      "n_pooled_pairs": 135
+    },
+    "gpt-4o": {
+      "n_clean_runs_with_scores": 3,
+      "mean_of_run_kappa_w": 0.39687244657242454,
+      "pooled_kappa_w": 0.5277777777777778,
+      "n_pooled_pairs": 45
+    }
+  },
+  "prompt_tokens": [
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Aradel",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 17244,
+      "max_prompt_tokens": 17244,
+      "mean_prompt_tokens": 17244.0
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 17326,
+      "max_prompt_tokens": 17326,
+      "mean_prompt_tokens": 17326.0
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Oando",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 21631,
+      "max_prompt_tokens": 21631,
+      "mean_prompt_tokens": 21631.0
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Oando",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 21673,
+      "max_prompt_tokens": 21673,
+      "mean_prompt_tokens": 21673.0
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Seplat",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 23531,
+      "max_prompt_tokens": 23531,
+      "mean_prompt_tokens": 23531.0
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 23504,
+      "max_prompt_tokens": 23504,
+      "mean_prompt_tokens": 23504.0
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 195496,
+      "max_prompt_tokens": 195518,
+      "mean_prompt_tokens": 195503.7
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 195574,
+      "max_prompt_tokens": 195575,
+      "mean_prompt_tokens": 195574.7
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 261067,
+      "max_prompt_tokens": 261087,
+      "mean_prompt_tokens": 261073.7
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 261136,
+      "max_prompt_tokens": 261136,
+      "mean_prompt_tokens": 261136.0
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 367548,
+      "max_prompt_tokens": 369034,
+      "mean_prompt_tokens": 368043.7
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 367587,
+      "max_prompt_tokens": 367588,
+      "mean_prompt_tokens": 367587.3
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 228750,
+      "max_prompt_tokens": 228750,
+      "mean_prompt_tokens": 228750.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 228833,
+      "max_prompt_tokens": 228833,
+      "mean_prompt_tokens": 228833.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 314449,
+      "max_prompt_tokens": 314449,
+      "mean_prompt_tokens": 314449.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Oando",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 314521,
+      "max_prompt_tokens": 314521,
+      "mean_prompt_tokens": 314521.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "clean",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 443121,
+      "max_prompt_tokens": 443121,
+      "mean_prompt_tokens": 443121.0
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "track": "A_full",
+      "n": 3,
+      "min_prompt_tokens": 443165,
+      "max_prompt_tokens": 443165,
+      "mean_prompt_tokens": 443165.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Aradel",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 14862,
+      "max_prompt_tokens": 14862,
+      "mean_prompt_tokens": 14862.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Aradel",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 14937,
+      "max_prompt_tokens": 14937,
+      "mean_prompt_tokens": 14937.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Oando",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 18244,
+      "max_prompt_tokens": 18244,
+      "mean_prompt_tokens": 18244.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Oando",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 18284,
+      "max_prompt_tokens": 18284,
+      "mean_prompt_tokens": 18284.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Seplat",
+      "version": "clean",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 20604,
+      "max_prompt_tokens": 20604,
+      "mean_prompt_tokens": 20604.0
+    },
+    {
+      "model": "gpt-4o",
+      "entity": "Seplat",
+      "version": "perturbed",
+      "track": "B_pack",
+      "n": 1,
+      "min_prompt_tokens": 20585,
+      "max_prompt_tokens": 20585,
+      "mean_prompt_tokens": 20585.0
+    }
+  ],
+  "type_d_trap_counts": {
+    "claude-sonnet-4.5": {
+      "payloads": 6,
+      "payloads_with_type_d_traps_key": 6,
+      "trap_objects": 12
+    },
+    "deepseek-v4.1-flash": {
+      "payloads": 18,
+      "payloads_with_type_d_traps_key": 15,
+      "trap_objects": 30
+    },
+    "gemini-2.5-flash": {
+      "payloads": 18,
+      "payloads_with_type_d_traps_key": 18,
+      "trap_objects": 36
+    },
+    "gpt-4o": {
+      "payloads": 6,
+      "payloads_with_type_d_traps_key": 6,
+      "trap_objects": 12
+    }
+  },
+  "seplat_evidence_pack_truncation": {
+    "requested_pages": [
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      19,
+      25,
+      37,
+      48,
+      49,
+      50,
+      51,
+      83,
+      108,
+      109,
+      110,
+      111,
+      113,
+      114,
+      115,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      149,
+      150,
+      151
+    ],
+    "requested_page_count": 33,
+    "max_pack_chars": 90000,
+    "clean_markdown_present": false,
+    "note": "clean_markdown/Seplat.md not shipped in the public clone; truncation was verified locally at pack_chars=90058 with pages 145\u2013151 dropped.",
+    "local_verification": {
+      "pack_chars": 90058,
+      "truncated": true,
+      "dropped_pages": [
+        145,
+        146,
+        149,
+        150,
+        151
+      ]
+    }
+  },
+  "notes": [
+    "Published Table 1 uses mean_of_run_kappa_w, not pooled_kappa_w.",
+    "Oando Track A concatenates sustainability report + financial statements.",
+    "Seplat Track B pack is truncated at MAX_PACK_CHARS=90000."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Replication package for Paper B v1.3: AI as a Junior Assessor (IFRS S2 LLM evaluation, Nigerian upstream oil & gas)",
+  "description": "Prompts, 15-indicator ordinal rubric, Paper A human benchmark scores, dual-track OpenRouter evaluation scripts, adversarial error manifest, evidence-pack page lists, raw model logs, and publication tables for the v1.3 working paper. Companion to Davies (2026) Ready for 2028? Zenodo 10.5281/zenodo.23984011.",
+  "upload_type": "software",
+  "publication_date": "2026-11-08",
+  "version": "v1.3.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "IFRS S2",
+    "ISSA 5000",
+    "large language models",
+    "sustainability assurance",
+    "Nigeria",
+    "oil and gas",
+    "adversarial evaluation",
+    "OpenRouter",
+    "replication package"
+  ],
+  "creators": [
+    {
+      "name": "Davies, Joseph",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23984011",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Josephtobi/paper-b-llm-junior-assessor",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
