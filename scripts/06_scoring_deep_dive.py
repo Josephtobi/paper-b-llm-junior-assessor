@@ -1,5 +1,5 @@
 """
-Paper B Script 06: Scoring deep-dive audits for the v1.3 working paper.
+Script 06: Scoring deep-dive audits for the Junior Assessor v1.3 working paper.
 
 Recomputes and prints:
 1. Mean-of-runs vs pooled quadratic weighted kappa (Table 1 transparency)

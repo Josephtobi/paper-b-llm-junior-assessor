@@ -1,5 +1,5 @@
 """
-Paper B Task 4: Dual-track OpenRouter evaluation under a hard $5 budget.
+Task 4: Dual-track OpenRouter evaluation under a hard $5 budget.
 
 Track A — full page-anchored Markdown on cheap 1M-context Flash models (K=3)
 Track B — ≤25k-token evidence packs on GPT-4o / Claude (K=1)

@@ -1,5 +1,5 @@
 """
-Paper B Task 1: Map Paper A human scores to a clean ground-truth benchmark.
+Task 1: Map Ready for 2028? human readiness scores to a clean ground-truth benchmark.
 
 Reads evaluations/master_score_matrix.csv (+ optional scorecard page notes)
 and writes paper_b/data/human_benchmark_scores.{json,csv}.
@@ -45,7 +45,7 @@ SCORECARD_FILES = {
 
 
 def parse_scorecard_notes(path: Path) -> dict[str, str]:
-    """Best-effort extract of page/evidence notes from Paper A markdown tables."""
+    """Best-effort extract of page/evidence notes from readiness scorecard markdown tables."""
     if not path.exists():
         return {}
     notes: dict[str, str] = {}

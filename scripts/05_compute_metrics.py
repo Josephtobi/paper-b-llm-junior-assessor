@@ -1,5 +1,5 @@
 """
-Paper B Task 5: Publication tables from OpenRouter logs vs human benchmark + planted errors.
+Task 5: Publication tables from OpenRouter logs vs human benchmark + planted errors.
 """
 from __future__ import annotations
 

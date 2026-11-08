@@ -1,10 +1,10 @@
-# Paper B v1.3 — AI as a Junior Assessor (Replication Package)
+# AI as a Junior Assessor v1.3 — Replication Package
 
 Replication materials for the **v1.3** working paper:
 
 > **AI as a Junior Assessor: Evaluating Large Language Models on IFRS S2 Climate Disclosures and Adversarial Error Detection in Nigerian Upstream Oil & Gas**
 
-Human ground truth scores come from:
+Human ground-truth scores come from the companion readiness study:
 
 > Davies, J. (2026). *Ready for 2028? IFRS S1 and S2 Readiness of Nigeria's Listed and OTC Oil & Gas Public Interest Entities (v1.1)*. Zenodo. https://doi.org/10.5281/zenodo.23984011
 
@@ -17,8 +17,8 @@ Human ground truth scores come from:
 | :--- | :--- |
 | [`prompts/junior_assurer_prompt.md`](prompts/junior_assurer_prompt.md) | Exact system + user prompts |
 | [`rubric/ifrs_s2_15_indicator_rubric.md`](rubric/ifrs_s2_15_indicator_rubric.md) | 15-indicator 0–3 ordinal rubric (max 45) |
-| [`data/human_benchmark_scores.csv`](data/human_benchmark_scores.csv) | Paper A human scores for Seplat, Oando, Aradel |
-| [`data/evidence_pack_pages.json`](data/evidence_pack_pages.json) | Track B evidence-pack page lists |
+| [`data/human_benchmark_scores.csv`](data/human_benchmark_scores.csv) | Human readiness scores for Seplat, Oando, Aradel |
+| [`data/evidence_pack_pages.json`](data/evidence_pack_pages.json) | Evidence-pack page lists (Track B) |
 | [`data/planted_errors_manifest.json`](data/planted_errors_manifest.json) | Adversarial Types A–D plant log |
 | [`scripts/`](scripts/) | Pipeline `01`–`06` |
 | [`results/raw_logs/`](results/raw_logs/) | All OpenRouter raw JSON responses (48 calls) |
@@ -57,8 +57,8 @@ python scripts/04_run_openrouter_eval.py   # dry-run estimate
 
 If you use these materials, please cite:
 
-1. **This replication package (Paper B v1.3):**  
+1. **This study / replication package (v1.3):**  
    Davies, J. (2026). *AI as a Junior Assessor: Evaluating Large Language Models on IFRS S2 Climate Disclosures and Adversarial Error Detection in Nigerian Upstream Oil & Gas* (Replication package v1.3.0) [Computer software]. GitHub. https://github.com/Josephtobi/paper-b-llm-junior-assessor/releases/tag/v1.3.0
 
-2. **Paper A human benchmark (source of the ordinal scores):**  
+2. **Human benchmark (source of the ordinal scores):**  
    Davies, J. (2026). *Ready for 2028? IFRS S1 and S2 Readiness of Nigeria's Listed and OTC Oil & Gas Public Interest Entities* (Version v1.1). Zenodo. https://doi.org/10.5281/zenodo.23984011

@@ -1,7 +1,7 @@
 # 15-Indicator Weighted Ordinal Scoring Rubric (Max = 45)
 
 Source: Davies (2026), *Ready for 2028? IFRS S1 and S2 Readiness of Nigeria's Listed and OTC Oil & Gas Public Interest Entities* (Zenodo), Appendix A.  
-Used as the **human ground-truth instrument** for Paper B.
+Used as the **human ground-truth instrument** for the Junior Assessor LLM evaluation.
 
 Scale (all indicators):
 

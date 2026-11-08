@@ -1,5 +1,5 @@
 """
-Paper B Task 3: Seed 6–8 material misstatements per Tier-1 report (Types A–C in
+Task 3: Seed 6–8 material misstatements per Tier-1 report (Types A–C in
 Markdown; Type D logged as evaluation traps for absent IFRS S2 metrics).
 """
 from __future__ import annotations
@@ -444,7 +444,7 @@ def main() -> None:
             print(f"  {e['error_id']} {e['error_type']} → {e['target_indicator_id']} p={e.get('page_number')}")
 
     payload = {
-        "description": "Planted ISSA 5000 adversarial misstatements for Paper B Track A/B evaluation",
+        "description": "Planted ISSA 5000 adversarial misstatements for Junior Assessor Track A/B evaluation",
         "entities": list(SEEDERS),
         "error_count": len(all_errors),
         "errors": all_errors,

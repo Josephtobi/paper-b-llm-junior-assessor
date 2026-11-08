@@ -1,4 +1,4 @@
-# Junior Assurer Evaluation Prompt (Paper B)
+# Junior Assurer Evaluation Prompt
 
 Used by `scripts/04_run_openrouter_eval.py` for all models.
 `temperature = 0.0`, `top_p = 1.0`, OpenRouter `response_format: json_object` where supported.

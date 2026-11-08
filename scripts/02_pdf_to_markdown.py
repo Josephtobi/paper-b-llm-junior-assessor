@@ -1,5 +1,5 @@
 """
-Paper B Task 2: Convert Tier-1 Paper A PDFs to page-anchored Markdown.
+Task 2: Convert Tier-1 readiness-study PDFs to page-anchored Markdown.
 
 Outputs paper_b/data/clean_markdown/{Seplat,Oando,Aradel}.md
 with delimiters --- Page N --- (or --- SR Page N --- / --- FS Page N --- for Oando).
